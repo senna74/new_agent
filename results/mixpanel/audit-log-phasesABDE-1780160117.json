@@ -1,0 +1,367 @@
+[
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 200,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"4025923\", \"organization_id\": \"3100781\", \"created\": \"2026-05-30T16:54:47.277670Z\", \"id\": \"cfc4b300-875b-4448-ba33-1f99ce9a8edf\", \"service\": \"webapp\", \"event_category\": \"data_mutate\", \"organization_name\": \"org name 1\", \"ttl_timestamp\": \"2026-08-28T21:36:00.214353Z\", \"client_ip\": \"173.212.245.147\", \"http_method\": \"DELETE\", \"http_request_headers\": {\"Accept\": \"*/*\", \"Content-Length\": \"0\", \"Host\": \"mixpanel.com\", \"Referer\": \"https://mixpanel.com/\", \"User-Agent\": \"python-requests/2.31.0\", \"X-Forwarded-For\": \"173.212.245.147, 34.117.152.135, 35.191.18.144\"}",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 400,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;end_date&#x27;, &#x27;limit&#x27;, &#x27;start_date&#x27; were unexpected)\", \"details\": {\"schema\": {\"$defs\": {\"Action\": {\"enum\": [\"activated\", \"accepted\", \"added_to_project\", \"archived\", \"batch_deleted\", \"batch_updated\", \"canceled\", \"concluded\", \"created\", \"decided\", \"default_access_granted\", \"default_access_revoked\", \"deleted\", \"downloaded\", \"duplicated\", \"exported\", \"launched\", \"logged_in\", \"logged_out\", \"login_failed\", \"moved\", \"paused\", \"payment_info_updated\", \"performed\", \"public_access_updated\", \"receipt_pre",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 200,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"4025923\", \"organization_id\": \"3100781\", \"created\": \"2026-05-30T16:54:47.277670Z\", \"id\": \"cfc4b300-875b-4448-ba33-1f99ce9a8edf\", \"service\": \"webapp\", \"event_category\": \"data_mutate\", \"organization_name\": \"org name 1\", \"ttl_timestamp\": \"2026-08-28T21:36:00.214353Z\", \"client_ip\": \"173.212.245.147\", \"http_method\": \"DELETE\", \"http_request_headers\": {\"Accept\": \"*/*\", \"Content-Length\": \"0\", \"Host\": \"mixpanel.com\", \"Referer\": \"https://mixpanel.com/\", \"User-Agent\": \"python-requests/2.31.0\", \"X-Forwarded-For\": \"173.212.245.147, 34.117.152.135, 35.191.18.144\"}",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 400,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;end_date&#x27;, &#x27;limit&#x27;, &#x27;start_date&#x27; were unexpected)\", \"details\": {\"schema\": {\"$defs\": {\"Action\": {\"enum\": [\"activated\", \"accepted\", \"added_to_project\", \"archived\", \"batch_deleted\", \"batch_updated\", \"canceled\", \"concluded\", \"created\", \"decided\", \"default_access_granted\", \"default_access_revoked\", \"deleted\", \"downloaded\", \"duplicated\", \"exported\", \"launched\", \"logged_in\", \"logged_out\", \"login_failed\", \"moved\", \"paused\", \"payment_info_updated\", \"performed\", \"public_access_updated\", \"receipt_pre",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 404,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations\"}",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 404,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_600": "",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "B-MEMBER-empty",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"User does not have permission\", \"status\": \"error\"}",
+    "req_body": {}
+  },
+  {
+    "label": "B-MEMBER-range",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"User does not have permission\", \"status\": \"error\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "B-MEMBER-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"view_audit_logs\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {}
+  },
+  {
+    "label": "B-MEMBER-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"view_audit_logs\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "B-MEMBER-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"edit_integrations\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {}
+  },
+  {
+    "label": "B-MEMBER-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"edit_integrations\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "B2-ADMIN->IDORorg",
+    "method": "POST",
+    "path": "/api/app/organizations/3100795/audit-logs",
+    "role": "ADMIN",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"User does not have permission\", \"status\": \"error\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "D-MEMBER-own",
+    "method": "POST",
+    "path": "/api/app/organizations/3100810/audit-logs",
+    "role": "MEMBER",
+    "status": 400,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;end_date&#x27;, &#x27;limit&#x27;, &#x27;start_date&#x27; were unexpected)\", \"details\": {\"schema\": {\"$defs\": {\"Action\": {\"enum\": [\"activated\", \"accepted\", \"added_to_project\", \"archived\", \"batch_deleted\", \"batch_updated\", \"canceled\", \"concluded\", \"created\", \"decided\", \"default_access_granted\", \"default_access_revoked\", \"deleted\", \"downloaded\", \"duplicated\", \"exported\", \"launched\", \"logged_in\", \"logged_out\", \"login_failed\", \"moved\", \"paused\", \"payment_info_updated\", \"performed\", \"public_access_updated\", \"receipt_pre",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "D-MEMBER->IDORorg",
+    "method": "POST",
+    "path": "/api/app/organizations/3100795/audit-logs",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"User does not have permission\", \"status\": \"error\"}",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "E-ADMIN-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 404,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations\"}",
+    "req_body": {}
+  },
+  {
+    "label": "E-ADMIN-webhook",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 404,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations\"}",
+    "req_body": {
+      "type": "webhook"
+    }
+  },
+  {
+    "label": "E-ADMIN-action-list",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 404,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations\"}",
+    "req_body": {
+      "action": "list"
+    }
+  },
+  {
+    "label": "E-MEMBER-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"edit_integrations\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {}
+  },
+  {
+    "label": "E-MEMBER-webhook",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"edit_integrations\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {
+      "type": "webhook"
+    }
+  },
+  {
+    "label": "E-MEMBER-action-list",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "MEMBER",
+    "status": 403,
+    "content_type": "application/json",
+    "allow_header": "",
+    "body_first_600": "{\"error\": \"Authenticated user does not have permission \\\"edit_integrations\\\" in project 4025923\", \"status\": \"error\"}",
+    "req_body": {
+      "action": "list"
+    }
+  }
+]

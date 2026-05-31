@@ -1,0 +1,9 @@
+{
+  "access_token": "v9c5xqrlLJhrfhp57rOohtGkDoQpKt",
+  "expires_in": 86400,
+  "token_type": "Bearer",
+  "scope": "projects analysis events insights segmentation retention data:read funnels flows data_definitions dashboard_reports experiments feature_flags metrics bookmarks user_details business_context",
+  "refresh_token": "EkSDsnQuVRtOREVxGs5NIWUi5PunM4",
+  "client_id": "wwqiiLU20mXaSdtxJSJC2HEv1NOcmXJvXI3nRiKd",
+  "client_secret": "xn49EN0HHk9JQSBNqieNJVFKBMaf7PHr1zx4pRUb3PaxN1w43FGuau93TM0WiNVJsO1X8BUXWcZ8AXfERK24hj4exuXu4f5wNtByY1hLf5gpTjjvpsyC9C5iHKa0i2Z1"
+}

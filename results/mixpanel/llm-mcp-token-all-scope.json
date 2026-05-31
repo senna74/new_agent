@@ -1,0 +1,9 @@
+{
+  "access_token": "m9dWNCF0p7cMebDR6yn5dCrcl9d3mN",
+  "expires_in": 86400,
+  "token_type": "Bearer",
+  "scope": "projects analysis events insights segmentation retention data:read funnels flows data_definitions dashboard_reports experiments feature_flags metrics bookmarks user_details business_context",
+  "refresh_token": "fMIMywUio6vV0GEEsyErfZNS7c3jw8",
+  "mcp_status": 200,
+  "mcp_body": "event: message\r\ndata: {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"protocolVersion\":\"2025-06-18\",\"capabilities\":{\"experimental\":{},\"prompts\":{\"listChanged\":true},\"resources\":{\"subscribe\":false,\"listChanged\":true},\"tools\":{\"listChanged\":true}},\"serverInfo\":{\"name\":\"Mixpanel MCP Server\",\"version\":\"2.13.0\"},\"instructions\":\"Query and manage Mixpanel data, reports,\\ndashboards, and metadata for the user's organization.\\n\\nCall Get-Business-Context as the FIRST tool in any new conversation, before\\nany other tool. It defines vocabulary you cannot\\ninfer from tool names alone: project nicknames, internal acronyms,\\nproduct/team names, and which events and properties matter. Skipping it\\nleads to wrong project picks and wasted tool calls.\\n\\nAny user reference to a name, acronym, product, team, project, event,\\nproperty, or domain concept is a signal to call it. It is read-only,\\nidempotent, and cheap. Do not skip the call to find out.\"}}\r\n\r\n"
+}

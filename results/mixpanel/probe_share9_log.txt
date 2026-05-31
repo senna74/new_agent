@@ -1,0 +1,16 @@
+GET /api/app/projects/4025923 -> 404 len=68 (no 'public/share')
+GET /api/app/projects/4025923/ -> 404 len=69 (no 'public/share')
+GET /api/app/projects/4025923/settings -> 404 len=77 (no 'public/share')
+GET /api/app/projects/4025923/settings/ -> 404 len=78 (no 'public/share')
+GET /api/app/projects/4025923/info -> 404 len=73 (no 'public/share')
+GET /api/app/me -> 200 len=20937 public_dashboard@=216 snippet='ons": ["merge_events_properties", "manage_project_public_dashboard_settings", "manage_discoverability", "event_deletion", "write_themes", "lock_entity", "download_reports_csv", "delete_team", "edit_locked_entity", "view_notifications", "hide_events_p'
+GET /api/app/projects/4025923/public-dashboards-settings -> 404 len=95 public_dashboard@=-1 snippet='{"status": "error", "error": "Not found: /api/app/projects/4025923/public-dashboards-settings"}'
+PATCH https://mixpanel.com/api/app/projects/4025923 body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923"}'
+PUT https://mixpanel.com/api/app/projects/4025923 body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923"}'
+POST https://mixpanel.com/api/app/projects/4025923 body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923"}'
+PATCH https://mixpanel.com/api/app/projects/4025923/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923/settings"}'
+PUT https://mixpanel.com/api/app/projects/4025923/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923/settings"}'
+POST https://mixpanel.com/api/app/projects/4025923/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/projects/4025923/settings"}'
+PATCH https://mixpanel.com/api/app/organizations/3100781/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/organizations/3100781/settings"}'
+PUT https://mixpanel.com/api/app/organizations/3100781/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/organizations/3100781/settings"}'
+POST https://mixpanel.com/api/app/organizations/3100781/settings body={"has_public_dashboards_enabled": true} -> 404 body='{"status": "error", "error": "Not found: /api/app/organizations/3100781/settings"}'

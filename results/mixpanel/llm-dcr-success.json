@@ -1,0 +1,19 @@
+{
+  "client_id": "vbKhEpDQrfX5rrPh3eRiEAtOmHudmr4YCNZdwqc5",
+  "client_id_issued_at": 1780160637,
+  "client_secret_expires_at": 0,
+  "redirect_uris": [
+    "https://attacker.example.com/cb"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "client_name": "poc-test",
+  "token_endpoint_auth_method": "client_secret_basic",
+  "scope": "projects events data:read",
+  "client_secret": "AOn7RgqHkaPzLLzURouurkW4cUpNOA6uXCUhUc64Q50H4ps6YSooT3u7iLllTxbevp53O4D2Xr8U0pDcsKhbOLW2DlDjvnxi5BWtIHg2L8BBhpPLb1IAXC5c6juF6B68"
+}

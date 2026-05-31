@@ -1,0 +1,3 @@
+event: message
+data: {"jsonrpc":"2.0","id":5,"result":{"content":[{"type":"text","text":"Failed to execute Get-Business-Context: organization_id is required when project_id is not provided. Call List-Organizations first to obtain it."}],"isError":true}}
+

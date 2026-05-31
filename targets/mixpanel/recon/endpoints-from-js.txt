@@ -1,0 +1,4 @@
+/api/app/billing/plan_info
+/api/app/billing/selfserve_transition
+/api/app/form/gtm_form
+/api/app/me/pricing-plan

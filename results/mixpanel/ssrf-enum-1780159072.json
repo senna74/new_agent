@@ -1,0 +1,122 @@
+[
+  {
+    "endpoint": "/api/app/projects/4025923/webhooks",
+    "status": 200,
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/cohort_webhooks",
+    "status": 404,
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort_webhooks\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/integrations",
+    "status": 405,
+    "len": 0,
+    "snippet": ""
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/integrations/webhooks",
+    "status": 404,
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations/webhooks\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/custom_alerts",
+    "status": 404,
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_alerts\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/alerts",
+    "status": 404,
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/alerts\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/warehouse_sources",
+    "status": 404,
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/warehouse_sources\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/warehouse_connectors",
+    "status": 404,
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/warehouse_connectors\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/data_pipelines",
+    "status": 404,
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_pipelines\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/exports",
+    "status": 404,
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/exports\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/destinations",
+    "status": 404,
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/destinations\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/cohorts",
+    "status": 200,
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/cohort/sync",
+    "status": 404,
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort/sync\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/cohort_syncs",
+    "status": 404,
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort_syncs\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/notification_services",
+    "status": 404,
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/notification_services\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/notifications",
+    "status": 404,
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/notifications\"}"
+  },
+  {
+    "endpoint": "/api/2.0/cohort_webhooks",
+    "status": 400,
+    "len": 86,
+    "snippet": "{\"request\": \"/api/2.0/cohort_webhooks\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "endpoint": "/api/2.0/webhooks",
+    "status": 400,
+    "len": 79,
+    "snippet": "{\"request\": \"/api/2.0/webhooks\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/sources",
+    "status": 404,
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/sources\"}"
+  },
+  {
+    "endpoint": "/api/app/projects/4025923/connections",
+    "status": 404,
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/connections\"}"
+  }
+]

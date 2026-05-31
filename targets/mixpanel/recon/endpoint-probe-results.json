@@ -1,0 +1,2514 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/2.0/cohorts/delete",
+    "status": 400,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"request\": \"/api/2.0/cohorts/delete\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/cohorts/list",
+    "status": 400,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"request\": \"/api/2.0/cohorts/list\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/cohorts/members",
+    "status": 400,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"request\": \"/api/2.0/cohorts/members\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/cohorts/update",
+    "status": 400,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"request\": \"/api/2.0/cohorts/update\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/engage",
+    "status": 400,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"request\": \"/api/2.0/engage\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/engage/import",
+    "status": 400,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"request\": \"/api/2.0/engage/import\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/engage/profile",
+    "status": 400,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"request\": \"/api/2.0/engage/profile\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/events",
+    "status": 400,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"request\": \"/api/2.0/events\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/events/names",
+    "status": 400,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"request\": \"/api/2.0/events/names\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/events/properties",
+    "status": 400,
+    "ct": "application/json",
+    "len": 88,
+    "snippet": "{\"request\": \"/api/2.0/events/properties\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/events/properties/top",
+    "status": 400,
+    "ct": "application/json",
+    "len": 92,
+    "snippet": "{\"request\": \"/api/2.0/events/properties/top\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/events/top",
+    "status": 400,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"request\": \"/api/2.0/events/top\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/funnels",
+    "status": 400,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"request\": \"/api/2.0/funnels\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/funnels/list",
+    "status": 400,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"request\": \"/api/2.0/funnels/list\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/graphql",
+    "status": 400,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"request\": \"/api/2.0/graphql\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/groups",
+    "status": 400,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"request\": \"/api/2.0/groups\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/import",
+    "status": 400,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"request\": \"/api/2.0/import\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/import-events",
+    "status": 400,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"request\": \"/api/2.0/import-events\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/insights",
+    "status": 400,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"request\": \"/api/2.0/insights\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/jql",
+    "status": 400,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"request\": \"/api/2.0/jql\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/lookup_tables",
+    "status": 400,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"request\": \"/api/2.0/lookup_tables\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/retention",
+    "status": 400,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"request\": \"/api/2.0/retention\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/retention/addiction",
+    "status": 400,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"request\": \"/api/2.0/retention/addiction\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/segmentation",
+    "status": 400,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"request\": \"/api/2.0/segmentation\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/segmentation/numeric",
+    "status": 400,
+    "ct": "application/json",
+    "len": 91,
+    "snippet": "{\"request\": \"/api/2.0/segmentation/numeric\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/2.0/users/me",
+    "status": 400,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"request\": \"/api/2.0/users/me\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/3.0/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/3.0/import",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/3.0/insights",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/3.0/jql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/3.0/me",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/4.0/import",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/4.0/me",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/apps",
+    "status": 404,
+    "ct": "application/json",
+    "len": 56,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/apps\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/audit_logs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 62,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/audit_logs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/embed",
+    "status": 404,
+    "ct": "application/json",
+    "len": 57,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/embed\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/feature-flags",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/feature-flags\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/graphql",
+    "status": 404,
+    "ct": "application/json",
+    "len": 59,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/graphql\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/health",
+    "status": 404,
+    "ct": "application/json",
+    "len": 58,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/health\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/integrations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 64,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/integrations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/marketplace",
+    "status": 404,
+    "ct": "application/json",
+    "len": 63,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/marketplace\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me",
+    "status": 200,
+    "ct": "application/json",
+    "len": 20937,
+    "snippet": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T13:06:10\", \"is_staff\": false, \"organizations\": {\"3100781\": {"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/2fa",
+    "status": 404,
+    "ct": "application/json",
+    "len": 58,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/2fa\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/api-keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 63,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/api-keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/avatar",
+    "status": 404,
+    "ct": "application/json",
+    "len": 61,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/avatar\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/notifications",
+    "status": 404,
+    "ct": "application/json",
+    "len": 68,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/notifications\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/permissions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 66,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/permissions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/personal-access-tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/personal-access-tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/preferences",
+    "status": 404,
+    "ct": "application/json",
+    "len": 66,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/preferences\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/sessions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 63,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/sessions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/me/sso",
+    "status": 404,
+    "ct": "application/json",
+    "len": 58,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/sso\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/notifications",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/notifications\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/oauth/authorize",
+    "status": 404,
+    "ct": "application/json",
+    "len": 67,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/oauth/authorize\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/oauth/clients",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/oauth/clients\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/oauth/token",
+    "status": 404,
+    "ct": "application/json",
+    "len": 63,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/oauth/token\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/2fa_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/2fa_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/api_keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/api_keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/audit-log",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit-log\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "status": 405,
+    "ct": "text/html; charset=utf-8",
+    "len": 0,
+    "snippet": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/audit_logs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit_logs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/avatar",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/avatar\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/contract",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/contract\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/invoices",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/invoices\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/payment-methods",
+    "status": 404,
+    "ct": "application/json",
+    "len": 97,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/payment-methods\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/plan",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/plan\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/preview",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/preview\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/billing/usage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing/usage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/branding",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/branding\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/contract",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/contract\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/custom_roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/custom_roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/data_governance",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/data_governance\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/data_residency",
+    "status": 404,
+    "ct": "application/json",
+    "len": 88,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/data_residency\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/data_retention",
+    "status": 404,
+    "ct": "application/json",
+    "len": 88,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/data_retention\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/discoverable_domains",
+    "status": 404,
+    "ct": "application/json",
+    "len": 94,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/discoverable_domains\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/feature_flags",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/feature_flags\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/integrations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/integrations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/invitations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/invitations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/invites",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/invites\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/ip_allowlist",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/ip_allowlist\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/logo",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/logo\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/members",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/members\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/password_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/password_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/personal_access_tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 96,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/personal_access_tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/projects",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/projects\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/role_assignments",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/role_assignments\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/saml",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/saml\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/saml/config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/saml/config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/scim",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/scim/config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim/config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/scim/tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim/tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/seats",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/seats\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/security_settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 91,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/security_settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/service_accounts",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/service_accounts\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/session_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 88,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/session_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/sso",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/sso\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/sso/idp_configs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/sso/idp_configs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/sso_config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/sso_config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/teams",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/teams\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/themes",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/themes\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/transfer_history",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/transfer_history\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/usage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/usage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/usage/sources",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/usage/sources\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/usage_reports",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/usage_reports\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/users",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/users\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 56,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781",
+    "status": 404,
+    "ct": "application/json",
+    "len": 64,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/2fa_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/2fa_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/api_keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/api_keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/audit-log",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/audit-log\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/audit-logs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/audit-logs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/audit_logs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/audit_logs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/avatar",
+    "status": 404,
+    "ct": "application/json",
+    "len": 71,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/avatar\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing",
+    "status": 404,
+    "ct": "application/json",
+    "len": 72,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/contract",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/contract\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/invoices",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/invoices\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/payment-methods",
+    "status": 404,
+    "ct": "application/json",
+    "len": 88,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/payment-methods\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/plan",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/plan\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/preview",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/preview\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/billing/usage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/billing/usage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/branding",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/branding\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/contract",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/contract\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/custom_roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/custom_roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/data_governance",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/data_governance\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/data_residency",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/data_residency\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/data_retention",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/data_retention\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/discoverable_domains",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/discoverable_domains\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/feature_flags",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/feature_flags\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/integrations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/integrations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/invitations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/invitations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/invites",
+    "status": 404,
+    "ct": "application/json",
+    "len": 72,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/invites\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/ip_allowlist",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/ip_allowlist\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/logo",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/logo\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/members",
+    "status": 404,
+    "ct": "application/json",
+    "len": 72,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/members\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/password_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/password_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/personal_access_tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/personal_access_tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/projects",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/projects\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/role_assignments",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/role_assignments\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 70,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/saml",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/saml\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/saml/config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/saml/config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/scim",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/scim\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/scim/config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/scim/config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/scim/tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/scim/tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/seats",
+    "status": 404,
+    "ct": "application/json",
+    "len": 70,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/seats\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/security_settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/security_settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/service_accounts",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/service_accounts\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/session_policy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/session_policy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/sso",
+    "status": 404,
+    "ct": "application/json",
+    "len": 68,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/sso\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/sso/idp_configs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/sso/idp_configs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/sso_config",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/sso_config\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/teams",
+    "status": 404,
+    "ct": "application/json",
+    "len": 70,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/teams\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/themes",
+    "status": 404,
+    "ct": "application/json",
+    "len": 71,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/themes\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/transfer_history",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/transfer_history\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/usage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 70,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/usage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/usage/sources",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/usage/sources\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/usage_reports",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/usage_reports\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/orgs/3100781/users",
+    "status": 404,
+    "ct": "application/json",
+    "len": 70,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/orgs/3100781/users\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects",
+    "status": 200,
+    "ct": "application/json",
+    "len": 177,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 4025923, \"name\": \"project 1 name\"}, {\"id\": 4025962, \"name\": \"pro2 poc\"}, {\"id\": 4027"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923",
+    "status": 404,
+    "ct": "application/json",
+    "len": 68,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/ab_tests",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/ab_tests\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/agents",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/agents\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/ai",
+    "status": 404,
+    "ct": "application/json",
+    "len": 71,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/ai\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/alerts",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/alerts\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/annotation",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/annotation\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/annotations",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/api-key",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api-key\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/api_keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api_keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/api_secret",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api_secret\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/audiences",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/audiences\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "status": 405,
+    "ct": "text/html; charset=utf-8",
+    "len": 0,
+    "snippet": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/audit_logs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/audit_logs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/autotrack",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/autotrack\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/behaviors",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": {}}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/billing",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/billing\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/boards",
+    "status": 200,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\"}]}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/bookmarks",
+    "status": 200,
+    "ct": "application/json",
+    "len": 23487,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 90220699, \"project_id\": 4025923, \"dashboard_id\": 11207838, \"workspace_id\": null, \"us"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/branding",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/branding\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/codeless",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/codeless\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/codeless_events",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/codeless_events\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/cohort/sync",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort/sync\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/cohort_syncs",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort_syncs\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/cohort_webhooks",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/cohort_webhooks\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/cohorts",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/connections",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/connections\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/copilot",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/copilot\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/custom_alerts",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_alerts\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/custom_events",
+    "status": 301,
+    "ct": "text/html; charset=utf-8",
+    "len": 0,
+    "snippet": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/custom_metrics",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_metrics\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/custom_properties",
+    "status": 200,
+    "ct": "application/json",
+    "len": 3569,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"customPropertyId\": 5867414, \"project\": 4025923, \"user\": 1423597, \"userInfo\": {\"id\": 14235"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/custom_roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/customevents",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/customevents\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/dashboards",
+    "status": 200,
+    "ct": "application/json",
+    "len": 811,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/data_definitions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_definitions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/data_deletion",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_deletion\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/data_pipelines",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_pipelines\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/data_quality",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_quality\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/data_volume",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/data_volume\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/destinations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/destinations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/discoverability",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/discoverability\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/embed_tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/embed_tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/engage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/engage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/event_aliases",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/event_aliases\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/event_definitions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/event_definitions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/event_deletion",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/event_deletion\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/event_taxonomy",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/event_taxonomy\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/events",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/events\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/events/import",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/events/import\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/experiments",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/exports",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/exports\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/exports/csv",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/exports/csv\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/exports/jql",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/exports/jql\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/exports/raw",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/exports/raw\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/feature-flags",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/feature_flags",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/feature_flags\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/flows",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/flows\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/funnels",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/funnels\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/gdpr/data_deletion",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/gdpr/data_deletion\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/gdpr/data_export",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/gdpr/data_export\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/heat_maps",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/heat_maps\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/heatmaps",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/heatmaps\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/import",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/import\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/imports",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/imports\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/info",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/info\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/insights",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/insights\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/integrations",
+    "status": 405,
+    "ct": "text/html; charset=utf-8",
+    "len": 0,
+    "snippet": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/integrations/webhooks",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/integrations/webhooks\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/invitations",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/invitations\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/journeys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/journeys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 73,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon/categories",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon/categories\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon/events",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon/events\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon/export",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon/export\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon/import",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon/import\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lexicon/properties",
+    "status": 404,
+    "ct": "application/json",
+    "len": 87,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon/properties\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lookup-tables",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup-tables\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lookup_tables",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup_tables\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/lookup_tables/upload",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup_tables/upload\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/members",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/members\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/metrics",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": {}}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/notification_services",
+    "status": 404,
+    "ct": "application/json",
+    "len": 90,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/notification_services\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/notifications",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/notifications\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/permissions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/permissions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/playlists",
+    "status": 200,
+    "ct": "application/json",
+    "len": 31,
+    "snippet": "{\"status\": \"ok\", \"results\": []}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/profiles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/profiles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/profiles/import",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/profiles/import\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/properties",
+    "status": 404,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/properties\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/property_aliases",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/property_aliases\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/property_definitions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/property_definitions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/public_links",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/public_links\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/reports",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/reports\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/reset_api_key",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/reset_api_key\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/reset_project",
+    "status": 404,
+    "ct": "application/json",
+    "len": 82,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/reset_project\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/retention",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/retention\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/roles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/roles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/secret",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/secret\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/segments",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/segments\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/service_accounts",
+    "status": 404,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/service_accounts\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/share",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/share\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/share_settings",
+    "status": 404,
+    "ct": "application/json",
+    "len": 83,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/share_settings\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/sources",
+    "status": 404,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/sources\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/spark",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/spark\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/team_members",
+    "status": 404,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/team_members\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/themes",
+    "status": 403,
+    "ct": "application/json",
+    "len": 79,
+    "snippet": "{\"status\": \"error\", \"error\": \"Cannot use custom themes with your current plan\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/tokens",
+    "status": 404,
+    "ct": "application/json",
+    "len": 75,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/tokens\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/transfer",
+    "status": 404,
+    "ct": "application/json",
+    "len": 77,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/transfer\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/typed_bookmarks",
+    "status": 404,
+    "ct": "application/json",
+    "len": 84,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/typed_bookmarks\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/usage",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/usage\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/userroles",
+    "status": 404,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/userroles\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/users",
+    "status": 404,
+    "ct": "application/json",
+    "len": 74,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/users\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/users/import",
+    "status": 200,
+    "ct": "application/json",
+    "len": 115,
+    "snippet": "{\"status\": \"ok\", \"results\": {\"active\": false, \"role\": null, \"teams\": [], \"recently_created\": [], \"user_bio\": null}}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/warehouse_connectors",
+    "status": 404,
+    "ct": "application/json",
+    "len": 89,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/warehouse_connectors\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/warehouse_sources",
+    "status": 404,
+    "ct": "application/json",
+    "len": 86,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/warehouse_sources\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/webhooks",
+    "status": 200,
+    "ct": "application/json",
+    "len": 328,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/projects/4025923/workspaces",
+    "status": 403,
+    "ct": "application/json",
+    "len": 68,
+    "snippet": "{\"error\": \"Your plan does not support DataViews\", \"status\": \"error\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/public/boards",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/public/boards\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/public/dashboards",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/public/dashboards\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/saml/metadata",
+    "status": 404,
+    "ct": "application/json",
+    "len": 65,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/saml/metadata\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/saml/sso",
+    "status": 404,
+    "ct": "application/json",
+    "len": 60,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/saml/sso\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/scim/v2/Groups",
+    "status": 401,
+    "ct": "application/json",
+    "len": 130,
+    "snippet": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are s"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/scim/v2/ServiceProviderConfig",
+    "status": 200,
+    "ct": "application/json",
+    "len": 823,
+    "snippet": "{\"schemas\": [\"urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig\"], \"documentationUri\": \"\", \"patch\": {\"supporte"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/scim/v2/Users",
+    "status": 401,
+    "ct": "application/json",
+    "len": 130,
+    "snippet": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are s"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/users/me",
+    "status": 404,
+    "ct": "application/json",
+    "len": 60,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/users/me/api-keys",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me/api-keys\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/users/me/avatar",
+    "status": 404,
+    "ct": "application/json",
+    "len": 67,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me/avatar\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/users/me/sessions",
+    "status": 404,
+    "ct": "application/json",
+    "len": 69,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me/sessions\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/users/me/sso",
+    "status": 404,
+    "ct": "application/json",
+    "len": 64,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me/sso\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/app/version",
+    "status": 200,
+    "ct": "text/html; charset=utf-8",
+    "len": 40,
+    "snippet": "79e74a6c6a00750d70ca63fa3f4fb9ff4bd33eec"
+  },
+  {
+    "method": "GET",
+    "path": "/api/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/api/query/funnels",
+    "status": 400,
+    "ct": "application/json",
+    "len": 80,
+    "snippet": "{\"request\": \"/api/query/funnels\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/query/insights",
+    "status": 400,
+    "ct": "application/json",
+    "len": 81,
+    "snippet": "{\"request\": \"/api/query/insights\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/query/jql",
+    "status": 400,
+    "ct": "application/json",
+    "len": 76,
+    "snippet": "{\"request\": \"/api/query/jql\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/query/segmentation",
+    "status": 400,
+    "ct": "application/json",
+    "len": 85,
+    "snippet": "{\"request\": \"/api/query/segmentation\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/embed/4025923/",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/embed/board/",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/embed/dashboard/",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/gql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/public/4025923/dashboards",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "GET",
+    "path": "/public/dashboard/",
+    "status": 200,
+    "ct": "text/html",
+    "len": 9800,
+    "snippet": "<!DOCTYPE html> <html lang=\"en\">   <head>     <meta name=\"iframely\" content=\"all\">     <meta name=\"robots\" content=\"noin"
+  },
+  {
+    "method": "GET",
+    "path": "/share/dashboard/",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "POST",
+    "path": "/api/2.0/graphql",
+    "status": 400,
+    "ct": "application/json",
+    "len": 78,
+    "snippet": "{\"request\": \"/api/2.0/graphql\", \"error\": \"project_id is a required parameter\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/3.0/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "POST",
+    "path": "/api/app/graphql",
+    "status": 404,
+    "ct": "application/json",
+    "len": 59,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/graphql\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "POST",
+    "path": "/gql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  },
+  {
+    "method": "POST",
+    "path": "/graphql",
+    "status": 404,
+    "ct": "text/html; charset=utf-8",
+    "len": 3098,
+    "snippet": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen --> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \""
+  }
+]

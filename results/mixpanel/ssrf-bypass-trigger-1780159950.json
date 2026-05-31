@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "step": "list-initial",
+      "body": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"2026-05-30T16:38:27.755\", \"modified\": \"2026-05-30T16:38:27.899\", \"creator_id\": 6492622, \"creator_name\": \"account mix  lastname\"}]}"
+    },
+    {
+      "step": "cohort-disc",
+      "method": "GET",
+      "path": "/api/2.0/cohorts?project_id=4025923",
+      "status": 400,
+      "body": "{\"request\": \"/api/2.0/cohorts?project_id=4025923\", \"error\": \"Missing required parameter: params\"}"
+    },
+    {
+      "step": "test-with-id",
+      "wid": "7be4bf2c-b871-40d9-a02f-b8bdd4a8b3d8",
+      "body": {
+        "url": "https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/trigger-test-d1b9d8196e14"
+      },
+      "status": 200,
+      "text": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 302, \"message\": \"Webhook responded with status 302\"}}"
+    }
+  ],
+  "oast_tag": "d1b9d8196e14",
+  "oast_url": "https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/trigger-test-d1b9d8196e14"
+}

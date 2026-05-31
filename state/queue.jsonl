@@ -1,0 +1,83 @@
+{"event": "live_host_found", "ts": "2026-05-30T18:31:38Z", "url": "https://mixpanel.com", "status": 200}
+{"event": "endpoint_found", "ts": "2026-05-30T18:31:38Z", "url": "https://mixpanel.com/api/app/me", "method": "GET"}
+{"event": "endpoint_found", "ts": "2026-05-30T18:31:38Z", "url": "https://mixpanel.com/api/app/projects", "method": "GET"}
+{"event": "endpoint_found", "ts": "2026-05-30T18:31:38Z", "url": "https://mixpanel.com/api/2.0/projects", "method": "GET"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:40:33Z", "url": "https://mixpanel.com/api/app/projects/4025923/dashboards", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "SUSPICIOUS_200_JSON"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:40:39Z", "url": "https://mixpanel.com/api/app/projects/4025923/cohorts", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "EXACT_MATCH_OWNER_DATA"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:40:44Z", "url": "https://mixpanel.com/api/app/projects/4025923/webhooks", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "SUSPICIOUS_200_JSON"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:40:58Z", "url": "https://mixpanel.com/api/app/projects/4025923/bookmarks", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "EXACT_MATCH_OWNER_DATA"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/PnPwvjnvq63Fmno_i7oMq/_buildManifest.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/PnPwvjnvq63Fmno_i7oMq/_ssgManifest.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/2288-823df22a3fde6cc4.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/2757-d165f8d3e51344ab.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/5570-6e6d2238b87d8c56.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/5581-049bd50141a7e823.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/6134-e44b3c7320d7d4fd.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/7162-cee10e4c92394489.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/8624-31c05e9fe735a949.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/9894-da6b07bdbd79277c.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/framework-d57fa332274b7d65.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/main-29771fd7f201b0cc.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/pages/_app-30065074a8f69b05.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/pages/new-login-7737eaee6bcb7290.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/pages/new-request_access-eca8a39a822a894a.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/polyfills-42372ed130431b0a.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "js_found", "url": "https://cdn.mxpnl.com/marketing-site/static/_next/static/chunks/webpack-df1e720a3aa0a77d.js", "ts": "2026-05-30T18:41:11Z"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:41:21Z", "url": "https://mixpanel.com/api/app/projects/4025923/playlists", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "EXACT_MATCH_OWNER_DATA"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:41:40Z", "url": "https://mixpanel.com/api/app/projects/4025923/annotations", "attacker": "MEMBER", "victim": "ADMIN", "status": 200, "flag": "EXACT_MATCH_OWNER_DATA"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:39Z", "url": "https://mixpanel.com/api/app/projects/4025923/dashboards", "attacker": "ADMIN", "victim": "pid_4025923", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:40Z", "url": "https://mixpanel.com/api/app/projects/4025924/dashboards", "attacker": "ADMIN", "victim": "pid_4025924", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:41Z", "url": "https://mixpanel.com/api/app/projects/4025925/dashboards", "attacker": "ADMIN", "victim": "pid_4025925", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:42Z", "url": "https://mixpanel.com/api/app/projects/4025930/dashboards", "attacker": "ADMIN", "victim": "pid_4025930", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:43Z", "url": "https://mixpanel.com/api/app/projects/4025940/dashboards", "attacker": "ADMIN", "victim": "pid_4025940", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:44Z", "url": "https://mixpanel.com/api/app/projects/4025941/dashboards", "attacker": "ADMIN", "victim": "pid_4025941", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:45Z", "url": "https://mixpanel.com/api/app/projects/4025942/dashboards", "attacker": "ADMIN", "victim": "pid_4025942", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:46Z", "url": "https://mixpanel.com/api/app/projects/4025943/dashboards", "attacker": "ADMIN", "victim": "pid_4025943", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:47Z", "url": "https://mixpanel.com/api/app/projects/4025950/dashboards", "attacker": "ADMIN", "victim": "pid_4025950", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:48Z", "url": "https://mixpanel.com/api/app/projects/4025960/dashboards", "attacker": "ADMIN", "victim": "pid_4025960", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:49Z", "url": "https://mixpanel.com/api/app/projects/4025961/dashboards", "attacker": "ADMIN", "victim": "pid_4025961", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:50Z", "url": "https://mixpanel.com/api/app/projects/4025962/dashboards", "attacker": "ADMIN", "victim": "pid_4025962", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:52Z", "url": "https://mixpanel.com/api/app/projects/4025970/dashboards", "attacker": "ADMIN", "victim": "pid_4025970", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:54Z", "url": "https://mixpanel.com/api/app/projects/4025974/dashboards", "attacker": "ADMIN", "victim": "pid_4025974", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:55Z", "url": "https://mixpanel.com/api/app/projects/4025980/dashboards", "attacker": "ADMIN", "victim": "pid_4025980", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:56Z", "url": "https://mixpanel.com/api/app/projects/4026000/dashboards", "attacker": "ADMIN", "victim": "pid_4026000", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:57Z", "url": "https://mixpanel.com/api/app/projects/4027000/dashboards", "attacker": "ADMIN", "victim": "pid_4027000", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:58Z", "url": "https://mixpanel.com/api/app/projects/4027263/dashboards", "attacker": "ADMIN", "victim": "pid_4027263", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:42:59Z", "url": "https://mixpanel.com/api/app/projects/4027264/dashboards", "attacker": "ADMIN", "victim": "pid_4027264", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:00Z", "url": "https://mixpanel.com/api/app/projects/4027268/dashboards", "attacker": "ADMIN", "victim": "pid_4027268", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:00Z", "url": "https://mixpanel.com/api/app/projects/4027269/dashboards", "attacker": "ADMIN", "victim": "pid_4027269", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:01Z", "url": "https://mixpanel.com/api/app/projects/4027270/dashboards", "attacker": "ADMIN", "victim": "pid_4027270", "status": 200}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:02Z", "url": "https://mixpanel.com/api/app/projects/4025942/dashboards?project_id=4025923", "attacker": "ADMIN", "flag": "BYPASS"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:03Z", "url": "https://mixpanel.com/api/app/projects/4025942/dashboards/", "attacker": "ADMIN", "flag": "BYPASS"}
+{"event": "idor_candidate", "ts": "2026-05-30T18:43:06Z", "url": "https://mixpanel.com/api/app/projects/4025942/dashboards/.", "attacker": "ADMIN", "flag": "BYPASS"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/me", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/organizations/3100781/audit-logs", "method": "GET", "status": 405, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/annotations", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/audit-logs", "method": "GET", "status": 405, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/behaviors", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/boards", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/bookmarks", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/cohorts", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/custom_properties", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/dashboards", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/experiments", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/feature-flags", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/integrations", "method": "GET", "status": 405, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/metrics", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/playlists", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/themes", "method": "GET", "status": 403, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/users/import", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/webhooks", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/projects/4025923/workspaces", "method": "GET", "status": 403, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/scim/v2/Groups", "method": "GET", "status": 401, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/scim/v2/ServiceProviderConfig", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/scim/v2/Users", "method": "GET", "status": 401, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/api/app/version", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event": "endpoint_found", "url": "https://mixpanel.com/public/dashboard/", "method": "GET", "status": 200, "source": "recon-endpoints", "ts": "2026-05-30T18:50:29Z"}
+{"event":"chain_candidate","type":"ssrf-validation-gap","id":"ssrf-bypass-create-vs-test-validation-gap","ts":"2026-05-30T19:00:00Z","note":"webhook create accepts IMDS URLs; test rejects. Need cohort-sync trigger."}
+{"event":"chain_candidate","type":"ssrf-parser-500","id":"ssrf-bypass-url-parser-500-crash","ts":"2026-05-30T19:00:00Z","note":"17 URL parser-crash inputs; possible parser-differential or pre-connect bypass."}
+{"event":"chain_candidate","id":"audit-log-method-discovery","ts":"2026-05-30T16:57:13Z","note":"POST method + schema discovered; full authz boundary verified intact"}
+{"event":"finding_found","type":"bfla_service_account_create","severity":"high","cvss":7.1,"target":"mixpanel","ts":"2026-05-30T19:02:05+02:00"}
+{"event":"chain_candidate","id":"public-board-share-link-review","ts":"2026-05-30T19:30:00Z","target":"mixpanel","verdict":"negative","confidence":0.10}

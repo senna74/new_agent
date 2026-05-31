@@ -1,0 +1,57 @@
+[
+  {
+    "name": "query_results_widget",
+    "uri": "ui://widget/query-results.html",
+    "description": "Interactive query results visualization widget with chart and table views",
+    "mimeType": "text/html;profile=mcp-app",
+    "_meta": {
+      "_fastmcp": {
+        "tags": []
+      }
+    }
+  },
+  {
+    "name": "feature_flags_setup_guidance_resource",
+    "uri": "guidance://feature-flags/setup",
+    "description": "Best-practice guidance for creating and configuring a Mixpanel feature flag before launch: routing the request to the right flag type (Feature Gate vs Dynamic Config vs Experiment), gathering the required inputs per flag type, naming and keying conventions, and the disabled-by-default lifecycle that follows creation.",
+    "mimeType": "text/markdown",
+    "_meta": {
+      "_fastmcp": {
+        "tags": []
+      }
+    }
+  },
+  {
+    "name": "feature_flags_lifecycle_guidance_resource",
+    "uri": "guidance://feature-flags/lifecycle",
+    "description": "Best-practice guidance for managing a Mixpanel feature flag after creation: enabling and staged rollout, kill-switch usage, exposure tracking, hygiene/cleanup and archival, and the experiment-linkage lifecycle sync.",
+    "mimeType": "text/markdown",
+    "_meta": {
+      "_fastmcp": {
+        "tags": []
+      }
+    }
+  },
+  {
+    "name": "experiments_setup_guidance_resource",
+    "uri": "guidance://experiments/setup",
+    "description": "Best-practice guidance for designing a Mixpanel experiment before launch: writing a falsifiable hypothesis, picking primary/guardrail/secondary metrics that test it, sizing the experiment from historical baseline data, and choosing a testing model and end condition.",
+    "mimeType": "text/markdown",
+    "_meta": {
+      "_fastmcp": {
+        "tags": []
+      }
+    }
+  },
+  {
+    "name": "experiments_results_interpretation_guidance_resource",
+    "uri": "guidance://experiments/results-interpretation",
+    "description": "Best-practice guidance for interpreting Mixpanel experiment results and making ship/iterate/kill decisions: trustworthiness checks (SRM, Retro A/A, duration), statistical and practical significance, goal-direction polarity, guardrail evaluation, and root-causing common health-check failures.",
+    "mimeType": "text/markdown",
+    "_meta": {
+      "_fastmcp": {
+        "tags": []
+      }
+    }
+  }
+]

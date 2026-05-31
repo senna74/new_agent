@@ -1,0 +1,30 @@
+{
+  "Get-Events_{\"project_id\": 4025942, \"limit\": 1}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "Get-Cohorts_{\"project_id\": 4025942}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "Get-Boards_{\"project_id\": 4025942}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "Get-Lexicon-URL_{\"project_id\": 4025942}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "List-Dashboards_{\"project_id\": 4025942}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "Get-Business-Context_{\"project_id\": 4025942}": {
+    "isError": true,
+    "text": "You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access."
+  },
+  "Get-Business-Context_{\"organization_id\": 3100795}": {
+    "isError": true,
+    "text": "Failed to execute Get-Business-Context: You don't have permission to access the requested data. This may be because the data is classified/sensitive or your role lacks the required access. Contact your project Admin to request access. Hint: No workspace_id was provided, so the request defaulted to the 'All Project Data' view. If your project uses Data Views and you don't have access to the default view, call Get-Projects to find your available workspaces, then retry with the appropriate workspace_id."
+  }
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "List-Organizations",
+    "snippet": "[{\"id\":3100781,\"name\":\"org name 1\",\"role\":\"owner\"}]"
+  },
+  {
+    "name": "Get-Business-Context",
+    "snippet": "Failed to execute Get-Business-Context: organization_id is required when project_id is not provided. Call List-Organizations first to obtain it."
+  },
+  {
+    "name": "Get-Projects",
+    "snippet": "{\"4025923\":{\"id\":4025923,\"name\":\"project 1 name\",\"workspaces\":{\"4522110\":{\"id\":4522110,\"name\":\"All Project Data\",\"description\":null,\"is_global\":true,\"is_default\":true}},\"project_context\":null},\"402596"
+  },
+  {
+    "name": "Get-Events",
+    "snippet": "Validation errors:\n  - project_id = {}: Missing required argument"
+  },
+  {
+    "name": "Get-Cohorts",
+    "snippet": "Unexpected error in Get-Cohorts"
+  },
+  {
+    "name": "Get-Properties",
+    "snippet": "Validation errors:\n  - project_id = {}: Missing required argument"
+  },
+  {
+    "name": "Get-Funnels",
+    "snippet": "Unexpected error in Get-Funnels"
+  },
+  {
+    "name": "Get-Boards",
+    "snippet": "Unexpected error in Get-Boards"
+  },
+  {
+    "name": "Get-Bookmarks",
+    "snippet": "Unexpected error in Get-Bookmarks"
+  },
+  {
+    "name": "Get-Reports",
+    "snippet": "Unexpected error in Get-Reports"
+  },
+  {
+    "name": "Get-Users",
+    "snippet": "Unexpected error in Get-Users"
+  },
+  {
+    "name": "Get-Insights",
+    "snippet": "Unexpected error in Get-Insights"
+  },
+  {
+    "name": "Get-Lexicon",
+    "snippet": "Unexpected error in Get-Lexicon"
+  },
+  {
+    "name": "Run-Query",
+    "snippet": "Validation errors:\n  - project_id = {}: Missing required argument\n  - report_type = {}: Missing required argument\n  - report = {}: Missing required argument"
+  },
+  {
+    "name": "Run-Insight",
+    "snippet": "Unexpected error in Run-Insight"
+  },
+  {
+    "name": "Run-Funnel",
+    "snippet": "Unexpected error in Run-Funnel"
+  },
+  {
+    "name": "Run-Retention",
+    "snippet": "Unexpected error in Run-Retention"
+  },
+  {
+    "name": "Run-Flow",
+    "snippet": "Unexpected error in Run-Flow"
+  },
+  {
+    "name": "Get-Profile",
+    "snippet": "Unexpected error in Get-Profile"
+  },
+  {
+    "name": "Get-User-Details",
+    "snippet": "Unexpected error in Get-User-Details"
+  },
+  {
+    "name": "Set-Project-Context",
+    "snippet": "Unexpected error in Set-Project-Context"
+  },
+  {
+    "name": "Set-Business-Context",
+    "snippet": "Unexpected error in Set-Business-Context"
+  },
+  {
+    "name": "Create-Cohort",
+    "snippet": "Unexpected error in Create-Cohort"
+  },
+  {
+    "name": "Create-Board",
+    "snippet": "Unexpected error in Create-Board"
+  },
+  {
+    "name": "Get-Experiments",
+    "snippet": "Unexpected error in Get-Experiments"
+  },
+  {
+    "name": "Get-Feature-Flags",
+    "snippet": "Unexpected error in Get-Feature-Flags"
+  },
+  {
+    "name": "Get-Metrics",
+    "snippet": "Unexpected error in Get-Metrics"
+  },
+  {
+    "name": "Get-Data-Definitions",
+    "snippet": "Unexpected error in Get-Data-Definitions"
+  },
+  {
+    "name": "List-Dashboards",
+    "snippet": "Validation errors:\n  - project_id = {}: Missing required argument"
+  },
+  {
+    "name": "Get-Dashboards",
+    "snippet": "Unexpected error in Get-Dashboards"
+  },
+  {
+    "name": "Get-Session-Replays",
+    "snippet": "Unexpected error in Get-Session-Replays"
+  },
+  {
+    "name": "Search-Replays",
+    "snippet": "Unexpected error in Search-Replays"
+  },
+  {
+    "name": "Get-Lexicon-URL",
+    "snippet": "Validation errors:\n  - project_id = {}: Missing required argument"
+  },
+  {
+    "name": "Get-Project-URL",
+    "snippet": "Unexpected error in Get-Project-URL"
+  }
+]

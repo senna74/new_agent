@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "/home/hunter/npm-global/bin/playwright-mcp",
+      "args": ["--headless"],
+      "env": {}
+    }
+  }
+}

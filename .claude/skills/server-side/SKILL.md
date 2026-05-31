@@ -1,0 +1,44 @@
+---
+name: server-side
+description: "Use this skill whenever you find an endpoint that fetches URLs server-side (webhook configurator, PDF generator from URL, image proxy, RSS importer), accepts file paths, parses XML/SOAP, accepts serialized data (Java/PHP/Pickle/Ruby Marshal/.NET), or reflects the Host header into responses. Covers SSRF, HTTP Request Smuggling, Path Traversal, File Upload, Insecure Deserialization, Host Header injection. Only invoke this skill if there is real impact potential. Skip theoretical findings."
+---
+
+# Server-Side
+
+Test for server-side vulnerabilities that allow unauthorized access, RCE, or data exfiltration.
+
+## Techniques
+
+| Type | Key Vectors |
+|------|-------------|
+| **SSRF** | Internal service access, cloud metadata, protocol smuggling |
+| **HTTP Smuggling** | CL.TE, TE.CL, TE.TE, CL.0, H2.CL, h2c, multi-layer proxy chains, connection pooling desync |
+| **Path Traversal** | Directory traversal, null bytes, encoding bypass |
+| **File Upload** | Extension bypass, content-type manipulation, polyglot files |
+| **Deserialization** | Java, PHP, Python, .NET gadget chains |
+| **Host Header** | Password reset poisoning, cache poisoning, routing-based SSRF |
+| **CUPS / cups-browsed** | CVE-2024-47076/47175/47176/47177 — UDP browse → IPP injection → PPD injection → foomatic-rip RCE (`reference/cups-browsed-exploit.md`) |
+
+## Workflow
+
+1. Identify server-side processing points
+2. Test for vulnerability class indicators
+3. Bypass protections (WAF, allowlists, encoding filters)
+4. Demonstrate impact (file read, RCE, internal access)
+5. Capture evidence with PoC
+
+## Reference
+
+- `reference/ssrf*.md` - SSRF techniques and labs
+- `reference/http-request-smuggling*.md` - Smuggling techniques
+- `reference/path-traversal*.md` - Path traversal bypass methods
+- `reference/file-upload*.md` - File upload exploitation
+- `reference/insecure-deserialization*.md` - Deserialization attacks
+- `reference/http-host-header*.md` - Host header injection
+- `reference/cups-browsed-exploit.md` - CUPS RCE chain (CVE-2024-47076/175/176/177); ipptool false positives vs libcups runtime parser; ippserver Python lib version-1.1 hardcode bug
+
+## Fallback Chain
+1. Try the techniques in this skill first
+2. If they fail or don't apply, use your own creativity
+3. Never stop because a technique didn't work
+4. Always find another angle

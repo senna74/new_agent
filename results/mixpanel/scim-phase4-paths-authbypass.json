@@ -1,0 +1,130 @@
+{
+  "phase": "alt_paths_and_authbypass",
+  "tests": [
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/Users",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/Groups",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/ServiceProviderConfig",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/ResourceTypes/Users",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/ResourceTypes/Groups",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/scim/v2/Schemas",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/api/scim/v2/Users",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://mixpanel.com/v2/Users",
+      "status": 404,
+      "body": "<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\n<head>\n    <me"
+    },
+    {
+      "alt_path": "https://api.mixpanel.com/scim/v2/Users",
+      "status": 404,
+      "body": "<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message></Error>"
+    },
+    {
+      "alt_path": "https://api.mixpanel.com/app/scim/v2/Users",
+      "status": 404,
+      "body": "<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message></Error>"
+    },
+    {
+      "authbypass": "Bearer ",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer null",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer undefined",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer admin",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer 0",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Basic Og==",
+      "status": 401,
+      "body": "{\"status\": \"error\", \"error\": \"Invalid service account credentials\"}"
+    },
+    {
+      "authbypass": "Basic YWRtaW46YWRtaW4=",
+      "status": 401,
+      "body": "{\"status\": \"error\", \"error\": \"Invalid service account credentials\"}"
+    },
+    {
+      "authbypass": "Basic c2NpbTpzY2lt",
+      "status": 401,
+      "body": "{\"status\": \"error\", \"error\": \"Invalid service account credentials\"}"
+    },
+    {
+      "authbypass": "Basic bWl4cGFuZWw6bWl4cGFuZWw=",
+      "status": 401,
+      "body": "{\"status\": \"error\", \"error\": \"Invalid service account credentials\"}"
+    },
+    {
+      "authbypass": "Bearer ",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer service-account",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Bearer test",
+      "status": 401,
+      "body": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You do not have the required scope(s) for this request\"}"
+    },
+    {
+      "authbypass": "Session",
+      "status": 400,
+      "body": "\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>400 Bad Request</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Bad Request</h1>\n<h2>Your client "
+    },
+    {
+      "settings_hunt": "/api/app/me",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T13:06:10\", \"is_staff\": false, \"organizations\": {\"3100781\": {\"id\": 3100781, \"name\": \"org name 1\", \"permissions\": [\"edit_integrations\", \"edit_"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "label": "F-XOU-ADMIN->IDOR",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "extra_headers": {
+      "X-Original-URL": "/api/app/organizations/3100795/audit-logs"
+    },
+    "status": 200,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"UNSET\", \"organization_id\": \"3100781\", \"created\": \"2026-05-30T16:56:01.102403Z\", \"id\": \"d015ce49-b777-43e5-bfd7-ba36feba2042\", \"service\": \"webapp\", \"event_category\": \"data_mutate\", \"organization_name\": \"org name 1\", \"ttl_timestamp\": \"2026-08-28T21:36:09.715130Z\", \"client_ip\": \"173.212.245.147\", \"http_method\": \"POST\", \"http_request_headers\": {\"Accept\": \"*"
+  },
+  {
+    "label": "F-XRW-ADMIN->IDOR",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "extra_headers": {
+      "X-Rewrite-URL": "/api/app/organizations/3100795/audit-logs"
+    },
+    "status": 200,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"UNSET\", \"organization_id\": \"3100781\", \"created\": \"2026-05-30T16:56:09.388870Z\", \"id\": \"af184308-4a13-44f8-94ca-9fced1717e61\", \"service\": \"webapp\", \"event_category\": \"data_mutate\", \"organization_name\": \"org name 1\", \"ttl_timestamp\": \"2026-08-28T21:36:10.536933Z\", \"client_ip\": \"173.212.245.147\", \"http_method\": \"DELETE\", \"http_request_headers\": {\"Accept\": "
+  },
+  {
+    "label": "F-XFF+XOU",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "extra_headers": {
+      "X-Forwarded-For": "127.0.0.1",
+      "X-Original-URL": "/api/app/organizations/3100795/audit-logs"
+    },
+    "status": 200,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"UNSET\", \"organization_id\": \"3100781\", \"created\": \"2026-05-30T16:56:12.267655Z\", \"id\": \"604fe86b-64b8-4d24-88ba-7aefdec39bc8\", \"service\": \"webapp\", \"event_category\": \"data_mutate\", \"organization_name\": \"org name 1\", \"ttl_timestamp\": \"2026-08-28T21:36:16.325749Z\", \"client_ip\": \"173.212.245.147\", \"http_method\": \"DELETE\", \"http_request_headers\": {\"Accept\": "
+  },
+  {
+    "label": "F-MEMBER-own-Host-ok",
+    "method": "POST",
+    "path": "/api/app/organizations/3100810/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {
+      "Host": "mixpanel.com"
+    },
+    "status": 200,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"UNSET\", \"organization_id\": \"3100810\", \"created\": \"2026-05-30T16:32:23.666245Z\", \"id\": \"e055e176-38b5-48e0-aa6b-1460f2c925f3\", \"service\": \"webapp\", \"event_category\": \"auth\", \"organization_name\": \"org1\", \"ttl_timestamp\": \"2026-08-28T21:35:20.511142Z\", \"client_ip\": \"156.199.163.75\", \"http_method\": \"GET\", \"http_request_headers\": {\"Accept\": \"text/html,applic"
+  },
+  {
+    "label": "F-MEMBER-XOU->ADMINorg",
+    "method": "POST",
+    "path": "/api/app/organizations/3100810/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {
+      "X-Original-URL": "/api/app/organizations/3100781/audit-logs"
+    },
+    "status": 200,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"ok\", \"results\": [{\"project_id\": \"UNSET\", \"organization_id\": \"3100810\", \"created\": \"2026-05-30T16:32:23.666245Z\", \"id\": \"e055e176-38b5-48e0-aa6b-1460f2c925f3\", \"service\": \"webapp\", \"event_category\": \"auth\", \"organization_name\": \"org1\", \"ttl_timestamp\": \"2026-08-28T21:35:20.511142Z\", \"client_ip\": \"156.199.163.75\", \"http_method\": \"GET\", \"http_request_headers\": {\"Accept\": \"text/html,applic"
+  },
+  {
+    "label": "F-MEMBER-XOU-cross",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {
+      "X-Original-URL": "/api/app/organizations/3100810/audit-logs"
+    },
+    "status": 403,
+    "content_type": "application/json",
+    "body_first_400": "{\"error\": \"Authenticated user does not have permission \\\"view_audit_logs\\\" in project 4025923\", \"status\": \"error\"}"
+  },
+  {
+    "label": "F-MEMBER-semicolon",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs;a=b",
+    "role": "MEMBER",
+    "extra_headers": {},
+    "status": 404,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit-logs;a=b\"}"
+  },
+  {
+    "label": "F-MEMBER-semi-org",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781;/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {},
+    "status": 404,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781;/audit-logs\"}"
+  },
+  {
+    "label": "F-MEMBER-double-slash",
+    "method": "POST",
+    "path": "/api/app//organizations/3100781/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {},
+    "status": 404,
+    "content_type": "application/json",
+    "body_first_400": "{\"status\": \"error\", \"error\": \"Not found: /api/app//organizations/3100781/audit-logs\"}"
+  },
+  {
+    "label": "F-MEMBER-traversal",
+    "method": "POST",
+    "path": "/api/app/organizations/3100810/../3100781/audit-logs",
+    "role": "MEMBER",
+    "extra_headers": {},
+    "status": 403,
+    "content_type": "application/json",
+    "body_first_400": "{\"error\": \"User does not have permission\", \"status\": \"error\"}"
+  }
+]

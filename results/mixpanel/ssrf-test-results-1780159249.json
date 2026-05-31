@@ -1,0 +1,20 @@
+{
+  "payloads_tested": [
+    "imds-v1",
+    "imds-v1-iam",
+    "imds-decimal",
+    "imds-hex",
+    "imds-ipv6",
+    "imds-nip",
+    "imds-trailing",
+    "gcp-meta",
+    "azure-meta",
+    "localhost",
+    "localhost-0",
+    "localhost-6",
+    "redis",
+    "file",
+    "gopher",
+    "oast-aws-tag"
+  ]
+}

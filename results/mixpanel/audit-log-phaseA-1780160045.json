@@ -1,0 +1,269 @@
+[
+  {
+    "label": "A-HEAD",
+    "method": "HEAD",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-OPTIONS",
+    "method": "OPTIONS",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/organizations/3100781/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-GET-qs",
+    "method": "GET",
+    "path": "/api/app/organizations/3100781/audit-logs?start_date=2026-05-01&end_date=2026-05-30&limit=10&page=1",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-HEAD",
+    "method": "HEAD",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-OPTIONS",
+    "method": "OPTIONS",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/projects/4025923/audit-logs",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-GET-qs",
+    "method": "GET",
+    "path": "/api/app/projects/4025923/audit-logs?start_date=2026-05-01&end_date=2026-05-30&limit=10&page=1",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-HEAD",
+    "method": "HEAD",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-OPTIONS",
+    "method": "OPTIONS",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  },
+  {
+    "label": "A-POST-empty",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {}
+  },
+  {
+    "label": "A-POST-range",
+    "method": "POST",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PUT",
+    "method": "PUT",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-PATCH",
+    "method": "PATCH",
+    "path": "/api/app/projects/4025923/integrations",
+    "role": "ADMIN",
+    "status": -1,
+    "content_type": "",
+    "allow_header": "",
+    "body_first_200": "ERR:requests.api.request() got multiple values for keyword argument 'json'",
+    "req_body": {
+      "start_date": "2026-05-01",
+      "end_date": "2026-05-30",
+      "limit": 10
+    }
+  },
+  {
+    "label": "A-GET-qs",
+    "method": "GET",
+    "path": "/api/app/projects/4025923/integrations?start_date=2026-05-01&end_date=2026-05-30&limit=10&page=1",
+    "role": "ADMIN",
+    "status": 405,
+    "content_type": "text/html; charset=utf-8",
+    "allow_header": "POST",
+    "body_first_200": "",
+    "req_body": null
+  }
+]

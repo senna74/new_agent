@@ -1,0 +1,215 @@
+{
+  "results": [
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/dashboards",
+      "status": 200,
+      "len": 794,
+      "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"creator\": \"Mixpanel\", \"creator_id\": 1423597, \"creator_name\": \"Mixpanel\", \"creator_email\": \"eng-account",
+      "baseline_status": 200,
+      "baseline_len": 811,
+      "flag": "SUSPICIOUS_200_JSON"
+    },
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/cohorts",
+      "status": 200,
+      "len": 31,
+      "snippet": "{\"status\": \"ok\", \"results\": []}",
+      "baseline_status": 200,
+      "baseline_len": 31,
+      "flag": "EXACT_MATCH_OWNER_DATA"
+    },
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/webhooks",
+      "status": 200,
+      "len": 328,
+      "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"2026-05-30T16:38:27.755\", \"modified\": \"2026-05-30T16:38:27.899\", \"creator_id\": 6492622, \"creator_name\"",
+      "baseline_status": 200,
+      "baseline_len": 31,
+      "flag": "SUSPICIOUS_200_JSON"
+    },
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/bookmarks",
+      "status": 200,
+      "len": 23487,
+      "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 90220699, \"project_id\": 4025923, \"dashboard_id\": 11207838, \"workspace_id\": null, \"user\": \"eng-accounts@mixpanel.com\", \"user_id\": 1423597, \"user_name\": \"Mixpanel\", \"user_email\": \"eng-accounts@mixpanel.com\", \"type\": \"insights\", \"original_type\": \"insights\", \"name\": \"",
+      "baseline_status": 200,
+      "baseline_len": 23487,
+      "flag": "EXACT_MATCH_OWNER_DATA"
+    },
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/playlists",
+      "status": 200,
+      "len": 31,
+      "snippet": "{\"status\": \"ok\", \"results\": []}",
+      "baseline_status": 200,
+      "baseline_len": 31,
+      "flag": "EXACT_MATCH_OWNER_DATA"
+    },
+    {
+      "phase": "xtest",
+      "atk": "MEMBER",
+      "vic": "ADMIN",
+      "url": "https://mixpanel.com/api/app/projects/4025923/annotations",
+      "status": 200,
+      "len": 31,
+      "snippet": "{\"status\": \"ok\", \"results\": []}",
+      "baseline_status": 200,
+      "baseline_len": 31,
+      "flag": "EXACT_MATCH_OWNER_DATA"
+    },
+    {
+      "phase": "bypass",
+      "url": "https://mixpanel.com/api/app/projects/4025942/dashboards?project_id=4025923",
+      "status": 200,
+      "len": 31086,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1\"><meta name=\"description\" content=\"Learn how people use your product with the world's most advanced",
+      "flag": "BYPASS"
+    },
+    {
+      "phase": "bypass",
+      "url": "https://mixpanel.com/api/app/projects/4025942/dashboards/",
+      "status": 200,
+      "len": 31086,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1\"><meta name=\"description\" content=\"Learn how people use your product with the world's most advanced",
+      "flag": "BYPASS"
+    },
+    {
+      "phase": "bypass",
+      "url": "https://mixpanel.com/api/app/projects/4025942/dashboards/.",
+      "status": 200,
+      "len": 31086,
+      "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1\"><meta name=\"description\" content=\"Learn how people use your product with the world's most advanced",
+      "flag": "BYPASS"
+    }
+  ],
+  "baselines_count": 114,
+  "xtests_count": 114,
+  "sweep_hits": [
+    [
+      4025923,
+      200,
+      811
+    ],
+    [
+      4025924,
+      200,
+      31086
+    ],
+    [
+      4025925,
+      200,
+      31086
+    ],
+    [
+      4025930,
+      200,
+      31086
+    ],
+    [
+      4025940,
+      200,
+      31086
+    ],
+    [
+      4025941,
+      200,
+      31086
+    ],
+    [
+      4025942,
+      200,
+      31086
+    ],
+    [
+      4025943,
+      200,
+      31086
+    ],
+    [
+      4025950,
+      200,
+      31086
+    ],
+    [
+      4025960,
+      200,
+      31086
+    ],
+    [
+      4025961,
+      200,
+      31086
+    ],
+    [
+      4025962,
+      200,
+      811
+    ],
+    [
+      4025970,
+      200,
+      31086
+    ],
+    [
+      4025974,
+      200,
+      31086
+    ],
+    [
+      4025980,
+      200,
+      31086
+    ],
+    [
+      4026000,
+      200,
+      31086
+    ],
+    [
+      4027000,
+      200,
+      31086
+    ],
+    [
+      4027263,
+      200,
+      811
+    ],
+    [
+      4027264,
+      200,
+      31086
+    ],
+    [
+      4027268,
+      200,
+      31086
+    ],
+    [
+      4027269,
+      200,
+      811
+    ],
+    [
+      4027270,
+      200,
+      31086
+    ]
+  ],
+  "ts": "2026-05-30T18:43:21Z"
+}

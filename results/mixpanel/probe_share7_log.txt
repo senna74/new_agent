@@ -1,0 +1,35 @@
+=== Token analysis ===
+  token=2cv24kB3k5n9reXr9bSJKU len=22
+    chars=23459BJKSUXbceknrv b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=d9cbf6e240779399fdade5ebf5b48929 len=16
+  token=5dbqyToAtFMaDJVJNzUeuG len=22
+    chars=5ADFGJMNTUVabdeoqtuyz b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=e5d6eac93a00b4531a0c954937351eb8 len=16
+  token=BkaDwovdEpEcMJp33R6sah len=22
+    chars=36BDEJMRacdhkopsvw b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=064683c28bdd12911c309a77dd1eac6a len=16
+  token=CEngFwLvPa5zvTSLvFTHNH len=22
+    chars=5CEFHLNPSTagnvwz b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=0849e01702ef3dae73bd348bbc54c734 len=16
+  token=MKDgQSoYBZciN4AGgY7Mgh len=22
+    chars=47ABDGKMNQSYZcghio b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=30a0e0412a18059722378006818ecc82 len=16
+  token=QLBHa24vdYuK2MJLiNUA1S len=22
+    chars=124ABHJKLMNQSUYadiuv b58_alphabet=True b64url=True b64=True
+    b64url+pad2 hex=40b0476b6e2f758b8ad8c24b88d500d5 len=16
+=== Base58 decode ===
+  2cv24kB3k5n9reXr9bSJKU -> b58 hex=0d1cd826218041e3bc4b21ba928daedb len=16
+  5dbqyToAtFMaDJVJNzUeuG -> b58 hex=2580cdd0ba31464b951bc97fabe42033 len=16
+  BkaDwovdEpEcMJp33R6sah -> b58 hex=5710d7ddc70f454fbfcb440e7d42f732 len=16
+  CEngFwLvPa5zvTSLvFTHNH -> b58 hex=5b0157f839384fc0ab349f2cabc29d62 len=16
+  MKDgQSoYBZciN4AGgY7Mgh -> b58 hex=a481f99a139f477984606c3761eaea4e len=16
+  QLBHa24vdYuK2MJLiNUA1S -> b58 hex=bcefa8da788741df964a7c80d6a8b0c5 len=16
+GET /p/2cv24kB3k5n9reXr9bSJKU (no auth) -> 200 ct=text/html body_len=9800
+    HIT 'project_id' at 3295: ...'agsContext = pathProjectId ? {project_id: pathProjectId, custom_properties: {}} : {custom_properties: {}};\n  const accountId = /mp_account_id\\=(\\d+);/.exec(document?.cookie ?? ``)?'...
+    HIT 'organization_id' at 3688: ..."Id) {\n        mpFlagsContext[`organization_id`] = orgId;\n        mpFlagsContext['custom_properties'] = {organization_id: orgId, project_id: pathProjectId};\n      }\n    } catch (e) "...
+GET /public/dashboard/2cv24kB3k5n9reXr9bSJKU -> 404 ct=text/html; charset=utf-8 body_first='<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "'
+GET /public/dashboards/2cv24kB3k5n9reXr9bSJKU -> 404 ct=text/html; charset=utf-8 body_first='<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "'
+GET /public/board/2cv24kB3k5n9reXr9bSJKU -> 404 ct=text/html; charset=utf-8 body_first='<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "'
+GET /public/2cv24kB3k5n9reXr9bSJKU -> 200 ct=text/html body_first='<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <meta name="iframely" content="all">\n    <meta name="robots" content="noin'
+GET /p/sT1gPNBPffcRsrqiYi7cKv (random) -> 404 body_first='<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "'
+GET /public/dashboard/sT1gPNBPffcRsrqiYi7cKv (random) -> 404 body_first='<!-- KEEP IN SYNC w/ iron/common/widgets/404-screen -->\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "'

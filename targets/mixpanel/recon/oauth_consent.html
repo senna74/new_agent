@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+    
+    <link rel="stylesheet" href="//cdn.mxpnl.com/static/asset-cache/assets/oauth_custom_authorize-ApTrDRtC.css" type="text/css" />
+<link rel="stylesheet" href="//cdn.mxpnl.com/static/asset-cache/assets/color-vars-DEAE2qXd.css" type="text/css" />
+<link rel="stylesheet" href="//cdn.mxpnl.com/static/asset-cache/assets/constants-CmgwWtrk.css" type="text/css" />
+<link rel="stylesheet" href="//cdn.mxpnl.com/static/asset-cache/assets/panel-C3fUzp_3.css" type="text/css" />
+<link rel="stylesheet" href="//cdn.mxpnl.com/static/asset-cache/assets/index-DPa-pC2g.css" type="text/css" />
+    <script type="module" src="//cdn.mxpnl.com/static/asset-cache/assets/oauth_custom_authorize-CxDqUMB2.js" crossorigin="anonymous" ></script>
+
+
+    <style>
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+        }
+        .block-center {
+            max-width: 500px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        }
+        .block-center .block-center-heading {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    
+    <mp-browser-context-root>
+    <oauth-custom-authorize
+        application_name="poc-test"
+        client_id="vbKhEpDQrfX5rrPh3eRiEAtOmHudmr4YCNZdwqc5"
+        hidden_fields="[{&quot;id&quot;: &quot;id_redirect_uri&quot;, &quot;name&quot;: &quot;redirect_uri&quot;, &quot;value&quot;: &quot;https://attacker.example.com/cb&quot;}, {&quot;id&quot;: &quot;id_scope&quot;, &quot;name&quot;: &quot;scope&quot;, &quot;value&quot;: &quot;projects events&quot;}, {&quot;id&quot;: &quot;id_nonce&quot;, &quot;name&quot;: &quot;nonce&quot;, &quot;value&quot;: null}, {&quot;id&quot;: &quot;id_client_id&quot;, &quot;name&quot;: &quot;client_id&quot;, &quot;value&quot;: &quot;vbKhEpDQrfX5rrPh3eRiEAtOmHudmr4YCNZdwqc5&quot;}, {&quot;id&quot;: &quot;id_state&quot;, &quot;name&quot;: &quot;state&quot;, &quot;value&quot;: &quot;test123&quot;}, {&quot;id&quot;: &quot;id_response_type&quot;, &quot;name&quot;: &quot;response_type&quot;, &quot;value&quot;: &quot;code&quot;}, {&quot;id&quot;: &quot;id_code_challenge&quot;, &quot;name&quot;: &quot;code_challenge&quot;, &quot;value&quot;: &quot;BNaJn1l2ITcRCJeFEfIhxixDeEBe-s1_dT1_sy8KVcI&quot;}, {&quot;id&quot;: &quot;id_code_challenge_method&quot;, &quot;name&quot;: &quot;code_challenge_method&quot;, &quot;value&quot;: &quot;S256&quot;}, {&quot;id&quot;: &quot;id_claims&quot;, &quot;name&quot;: &quot;claims&quot;, &quot;value&quot;: null}]"
+        scopes_descriptions="%5B%22Read%20access%20to%20project%20info%22%2C%20%22Run%20event%20queries%22%5D"
+        user_email="bettercallme+m1@wearehackerone.com"
+        redirect_uri="https://attacker.example.com/cb"
+        redirect_uri_confirmed="false"
+        is_mcp="true"
+        
+        
+        >
+    </oauth-custom-authorize>
+    </mp-browser-context-root>
+
+</div>
+
+</body>
+</html>

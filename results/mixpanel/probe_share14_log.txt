@@ -1,0 +1,20 @@
+=== /p/<token> with/without auth ===
+  role=None -> 200 len=9800 hash=-1939106473538670564
+  role=ADMIN -> 200 len=9800 hash=-1939106473538670564
+  role=MEMBER -> 200 len=9800 hash=-1939106473538670564
+  role=IDOR -> 200 len=9800 hash=-1939106473538670564
+=== /public/<token> with/without auth ===
+  role=None -> 200 len=9800 hash=-1939106473538670564
+  role=ADMIN -> 200 len=9800 hash=-1939106473538670564
+  role=MEMBER -> 200 len=9800 hash=-1939106473538670564
+  role=IDOR -> 200 len=9800 hash=-1939106473538670564
+  /p/2cv24kB3k5n9reXr9bSJKU -> 200 len=9800 sha256=e1e2a585cbf15cdf
+  /p/5dbqyToAtFMaDJVJNzUeuG -> 200 len=9800 sha256=e1e2a585cbf15cdf
+  /p/BkaDwovdEpEcMJp33R6sah -> 200 len=9800 sha256=e1e2a585cbf15cdf
+=== Header injection on POST /public-dashboards/{DASH} ===
+  extra={'X-Original-URL': '/api/app/projects/4025923/public-dashboards/11207838'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'
+  extra={'X-Forwarded-For': '127.0.0.1'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'
+  extra={'X-Real-IP': '127.0.0.1'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'
+  extra={'X-Internal': 'true'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'
+  extra={'X-Mixpanel-Feature': 'public_dashboards'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'
+  extra={'X-MP-Feature-Flag': 'public_dashboards'} -> 500 body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://m'

@@ -1,0 +1,805 @@
+{
+  "part_a_reads": [
+    {
+      "path": "/api/app/projects/4025962/dashboards",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025962/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 811,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11208404, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "5ae6c0e936718601",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025962/dashboards",
+        "status": 302,
+        "ctype": "text/html; charset=utf-8",
+        "loc": "/request_access/?next=",
+        "len": 0,
+        "first200": "",
+        "sig": "e3b0c44298fc1c14",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": false,
+      "same_sig": false,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4027263/dashboards",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4027263/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 811,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11218827, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "583f1a8b026cd481",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4027263/dashboards",
+        "status": 302,
+        "ctype": "text/html; charset=utf-8",
+        "loc": "/request_access/?next=",
+        "len": 0,
+        "first200": "",
+        "sig": "e3b0c44298fc1c14",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": false,
+      "same_sig": false,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4027269/dashboards",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4027269/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 811,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11218839, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "e10cf33ec5af5d5a",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4027269/dashboards",
+        "status": 302,
+        "ctype": "text/html; charset=utf-8",
+        "loc": "/request_access/?next=",
+        "len": 0,
+        "first200": "",
+        "sig": "e3b0c44298fc1c14",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": false,
+      "same_sig": false,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/dashboards",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 811,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "2e0900e0a3a4a4a4",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 794,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "899fc49223fc5189",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": false,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/cohorts",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/cohorts",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 31,
+        "first200": "{\"status\": \"ok\", \"results\": []}",
+        "sig": "7631db47e1bbe239",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/cohorts",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 31,
+        "first200": "{\"status\": \"ok\", \"results\": []}",
+        "sig": "7631db47e1bbe239",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": true
+    },
+    {
+      "path": "/api/app/projects/4025923/bookmarks",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/bookmarks",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 23487,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 90220699, \"project_id\": 4025923, \"dashboard_id\": 11207838, \"workspace_id\": null, \"user\": \"eng-accounts@mixpanel.com\", \"user_id\": 1423597, \"user_name\": \"Mixpanel\", \"",
+        "sig": "61ea2aebf5a908ef",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/bookmarks",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 23487,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 90220699, \"project_id\": 4025923, \"dashboard_id\": 11207838, \"workspace_id\": null, \"user\": \"eng-accounts@mixpanel.com\", \"user_id\": 1423597, \"user_name\": \"Mixpanel\", \"",
+        "sig": "61ea2aebf5a908ef",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": true
+    },
+    {
+      "path": "/api/app/projects/4025923/webhooks",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/webhooks",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 328,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"20",
+        "sig": "bfbf68b6949b377b",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/webhooks",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 328,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"20",
+        "sig": "bfbf68b6949b377b",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": true
+    },
+    {
+      "path": "/api/app/projects/4025923/lookup_tables",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/lookup_tables",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 82,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup_tables\"}",
+        "sig": "a14004e01cc22c16",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/lookup_tables",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 82,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup_tables\"}",
+        "sig": "a14004e01cc22c16",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/custom_alerts",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/custom_alerts",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 82,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_alerts\"}",
+        "sig": "fa1a4c96a8fd84b2",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/custom_alerts",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 82,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/custom_alerts\"}",
+        "sig": "fa1a4c96a8fd84b2",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/service_accounts",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/service_accounts",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 85,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/service_accounts\"}",
+        "sig": "ee3d0e140c7dabe1",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/service_accounts",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 85,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/service_accounts\"}",
+        "sig": "ee3d0e140c7dabe1",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/users",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/users",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 74,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/users\"}",
+        "sig": "13fe67b3293140f1",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/users",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 74,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/users\"}",
+        "sig": "13fe67b3293140f1",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/info",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/info",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 73,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/info\"}",
+        "sig": "5e3f557bd01b76a3",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/info",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 73,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/info\"}",
+        "sig": "5e3f557bd01b76a3",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/settings",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/settings",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 77,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/settings\"}",
+        "sig": "8ee5c7e382aa69ba",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/settings",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 77,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/settings\"}",
+        "sig": "8ee5c7e382aa69ba",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/secret",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/secret",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 75,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/secret\"}",
+        "sig": "cd068c2617c39694",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/secret",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 75,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/secret\"}",
+        "sig": "cd068c2617c39694",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/projects/4025923/api-key",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/api-key",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 76,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api-key\"}",
+        "sig": "97a18a9a18c23fe2",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/api-key",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 76,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api-key\"}",
+        "sig": "97a18a9a18c23fe2",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/organizations/3100781",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 73,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781\"}",
+        "sig": "825f7e6e34f0f9a9",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 73,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781\"}",
+        "sig": "825f7e6e34f0f9a9",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/organizations/3100781/members",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/members",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 81,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/members\"}",
+        "sig": "c227e3c0ed59ca73",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/members",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 81,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/members\"}",
+        "sig": "c227e3c0ed59ca73",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/organizations/3100781/audit_logs",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/audit_logs",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 84,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit_logs\"}",
+        "sig": "07ce66479186f239",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/audit_logs",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 84,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit_logs\"}",
+        "sig": "07ce66479186f239",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    },
+    {
+      "path": "/api/app/organizations/3100781/billing",
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/billing",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 81,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing\"}",
+        "sig": "2b62c78fd0a48d88",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/organizations/3100781/billing",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 81,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing\"}",
+        "sig": "2b62c78fd0a48d88",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "same_status": true,
+      "same_sig": true,
+      "MATCH": false
+    }
+  ],
+  "part_b_writes": [
+    {
+      "id": "B1_webhook_create_member",
+      "baseline_admin_get": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025923/webhooks",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 328,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"20",
+        "sig": "bfbf68b6949b377b",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member_post": {
+        "role": "MEMBER",
+        "method": "POST",
+        "path": "/api/app/projects/4025923/webhooks",
+        "status": 400,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 765,
+        "first200": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;cohort_id&#x27; was unexpected)\", \"details\": {\"schema\": {\"additionalProperties\": false, \"description\": \"Payload for cre",
+        "sig": "b3dfa4a0e155c0f5",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      }
+    },
+    {
+      "id": "B2_patch_me_is_staff",
+      "admin_pre": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/me",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 20937,
+        "first200": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T13:06:10\", \"is_staff\": false, \"organizations\": {\"3100781\": {\"id\": 3100781, \"name\": \"org name 1\", \"permissions\": [\"view_audit_logs\", \"invite_",
+        "sig": "d6785eff0cf7c1ce",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "admin_patch": {
+        "role": "ADMIN",
+        "method": "PATCH",
+        "path": "/api/app/me",
+        "status": 400,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 568,
+        "first200": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;is_staff&#x27; was unexpected)\", \"details\": {\"schema\": {\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"",
+        "sig": "1f1da5166cdd225c",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "admin_post": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/me",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 20937,
+        "first200": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T13:06:10\", \"is_staff\": false, \"organizations\": {\"3100781\": {\"id\": 3100781, \"name\": \"org name 1\", \"permissions\": [\"pin_dashboards\", \"write_da",
+        "sig": "d07f1dc1eae1d4a2",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "member_pre": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/me",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 8956,
+        "first200": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T14:21:11\", \"is_staff\": false, \"organizations\": {\"3100781\": {\"id\": 3100781, \"name\": \"org name 1\", \"permissions\": [], \"role\": \"no role\", \"is_d",
+        "sig": "36796a7e1434f87a",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "member_patch": {
+        "role": "MEMBER",
+        "method": "PATCH",
+        "path": "/api/app/me",
+        "status": 400,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 568,
+        "first200": "{\"status\": \"error\", \"error\": \"root: Additional properties are not allowed (&#x27;is_staff&#x27; was unexpected)\", \"details\": {\"schema\": {\"$schema\": \"http://json-schema.org/draft-07/schema#\", \"type\": \"",
+        "sig": "1f1da5166cdd225c",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "member_post": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/me",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 8956,
+        "first200": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T14:21:11\", \"is_staff\": false, \"organizations\": {\"3100781\": {\"id\": 3100781, \"name\": \"org name 1\", \"permissions\": [], \"role\": \"no role\", \"is_d",
+        "sig": "d7e3a84154be6f06",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      }
+    },
+    {
+      "id": "B3_invite_user_member",
+      "member_post": {
+        "role": "MEMBER",
+        "method": "POST",
+        "path": "/api/app/organizations/3100781/users",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 79,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/users\"}",
+        "sig": "a051d08fa2d8a4b4",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      }
+    },
+    {
+      "id": "B4_reset_api_key_member",
+      "member_post": {
+        "role": "MEMBER",
+        "method": "POST",
+        "path": "/api/app/projects/4025923/reset_api_key",
+        "status": 404,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 82,
+        "first200": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/reset_api_key\"}",
+        "sig": "6e9b382adfe5308c",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      }
+    }
+  ],
+  "part_c_headers": [
+    {
+      "id": "C1_x_mixpanel_org_role_admin",
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025962/dashboards",
+        "status": 302,
+        "ctype": "text/html; charset=utf-8",
+        "loc": "/request_access/?next=",
+        "len": 0,
+        "first200": "",
+        "sig": "e3b0c44298fc1c14",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "admin": {
+        "role": "ADMIN",
+        "method": "GET",
+        "path": "/api/app/projects/4025962/dashboards",
+        "status": 200,
+        "ctype": "application/json",
+        "loc": "",
+        "len": 811,
+        "first200": "{\"status\": \"ok\", \"results\": [{\"id\": 11208404, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "sig": "5ae6c0e936718601",
+        "is_login_html": false,
+        "set_cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoi"
+      },
+      "MATCH": false
+    },
+    {
+      "id": "C2_x_original_url",
+      "member": {
+        "role": "MEMBER",
+        "method": "GET",
+        "path": "/api/app/projects/4025962/dashboards",
+        "status": 302,
+        "ctype": "text/html; charset=utf-8",
+        "loc": "/request_access/?next=",
+        "len": 0,
+        "first200": "",
+        "sig": "e3b0c44298fc1c14",
+        "is_login_html": false,
+        "set_cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI"
+      },
+      "REACHED_TARGET": false
+    }
+  ]
+}

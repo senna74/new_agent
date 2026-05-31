@@ -1,0 +1,72 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(git push --force*)",
+      "Bash(curl * | bash*)",
+      "Bash(wget * | bash*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/scope_gate.py",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/no_inline_http.py",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/phase_gate.py",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Agent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/phase_gate.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/cost_tracker.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/hunter/new_agent/.claude/hooks/agent_done.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

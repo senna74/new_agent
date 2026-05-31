@@ -1,0 +1,37 @@
+{
+  "ADMIN": {
+    "user_org": "3100781",
+    "role": "org_admin",
+    "projects": [
+      4025923,
+      4025962,
+      4027263,
+      4027269
+    ]
+  },
+  "MEMBER": {
+    "org_3100781": {
+      "role": "no role",
+      "perms": 0,
+      "note": "SAME ORG AS ADMIN \u2014 should NOT access ADMIN projects 4025962, 4027263, 4027269"
+    },
+    "org_3100810": {
+      "role": "org_admin",
+      "perms": 113,
+      "projects": [
+        4025974
+      ]
+    },
+    "visible_projects": [
+      4025923,
+      4025974
+    ]
+  },
+  "IDOR": {
+    "user_org": "3100795",
+    "role": "org_admin",
+    "projects": [
+      4025942
+    ]
+  }
+}

@@ -1,0 +1,928 @@
+{
+  "phase": 1,
+  "tests": [
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962/dashboards",
+      "member": {
+        "status": 200,
+        "len": 31086,
+        "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:12 GMT",
+          "Content-Type": "text/html",
+          "Vary": "Accept-Encoding",
+          "Cache-Control": "no-cache",
+          "Expires": "Sun, 30 May 2027 16:37:12 GMT",
+          "Last-Modified": "Fri, 29 May 2026 22:59:27 GMT",
+          "ETag": "W/\"abd537e833d26c9fd549975a463c7df4\"",
+          "x-goog-meta-goog-reserved-file-mtime": "1780095551",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 200,
+        "len": 811,
+        "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11208404, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:13 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.308",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:13 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:13 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:13 GMT; Max-Age=31104000; Path=/",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": "[PARTIAL]"
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4027263/dashboards",
+      "member": {
+        "status": 200,
+        "len": 31086,
+        "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:13 GMT",
+          "Content-Type": "text/html",
+          "Vary": "Accept-Encoding",
+          "Cache-Control": "no-cache",
+          "Expires": "Sun, 30 May 2027 16:37:13 GMT",
+          "Last-Modified": "Fri, 29 May 2026 22:59:27 GMT",
+          "ETag": "W/\"abd537e833d26c9fd549975a463c7df4\"",
+          "x-goog-meta-goog-reserved-file-mtime": "1780095551",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 200,
+        "len": 811,
+        "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11218827, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:14 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.319",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:14 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:14 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:14 GMT; Max-Age=31104000; Path=/",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": "[PARTIAL]"
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4027269/dashboards",
+      "member": {
+        "status": 200,
+        "len": 31086,
+        "snippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><title>Request Access - Mixpanel</title><meta name=\"robots\" content=\"index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:14 GMT",
+          "Content-Type": "text/html",
+          "Vary": "Accept-Encoding",
+          "Cache-Control": "no-cache",
+          "Expires": "Sun, 30 May 2027 16:37:14 GMT",
+          "Last-Modified": "Fri, 29 May 2026 22:59:27 GMT",
+          "ETag": "W/\"abd537e833d26c9fd549975a463c7df4\"",
+          "x-goog-meta-goog-reserved-file-mtime": "1780095551",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 200,
+        "len": 811,
+        "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11218839, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:15 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.208",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:15 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:15 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:15 GMT; Max-Age=31104000; Path=/",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": "[PARTIAL]"
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/dashboards",
+      "member": {
+        "status": 200,
+        "len": 794,
+        "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:15 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.283",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:15 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:15 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:15 GMT; Max-Age=31104000; Path=/, sessionid=tcc7fvnm491f8nh11zx9h6os8dyaukhk; Domain=.mixpanel.com; expires=Sat, 13 Jun 2026 16:32:23 GMT; HttpOnly; Max-Age=1209307; Path=/; SameSite=Lax; Secure",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 200,
+        "len": 811,
+        "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\", \"description\": \"This board contains a high level overview of user activity and retention\", \"is_private\": false, \"cr",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:16 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.302",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:16 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/, sessionid=t4z64hlfhpc4d6woexba01slexi070dy; Domain=.mixpanel.com; expires=Sat, 06 Jun 2026 14:43:59 GMT; HttpOnly; Max-Age=598002; Path=/; SameSite=Lax; Secure",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": "[PRIVESC-MATCH]"
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/audit_logs",
+      "member": {
+        "status": 404,
+        "len": 84,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit_logs\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:16 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.113",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:16 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 84,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/audit_logs\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:16 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.036",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:16 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:16 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/members",
+      "member": {
+        "status": 404,
+        "len": 81,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/members\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:17 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.036",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:17 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:17 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:17 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 81,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/members\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:17 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.040",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:17 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:17 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:17 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/billing",
+      "member": {
+        "status": 404,
+        "len": 81,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:18 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.040",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:18 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:18 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:18 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 81,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/billing\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:18 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.051",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:18 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:18 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:18 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781",
+      "member": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:19 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.041",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:19 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:19 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:19 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:20 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.138",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:19 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:19 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:19 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/secret",
+      "member": {
+        "status": 404,
+        "len": 75,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/secret\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:20 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.118",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:20 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:20 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:20 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 75,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/secret\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:21 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.108",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:20 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:20 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:20 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/api-key",
+      "member": {
+        "status": 404,
+        "len": 76,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api-key\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:21 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.125",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:21 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:21 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:21 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 76,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/api-key\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:21 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.042",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:21 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:21 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:21 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/users",
+      "member": {
+        "status": 404,
+        "len": 74,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/users\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:22 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.037",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:22 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:22 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:22 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 74,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/users\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:22 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.045",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:22 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:22 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:22 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923",
+      "member": {
+        "status": 404,
+        "len": 68,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:23 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.107",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:23 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:23 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:23 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 68,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:24 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.128",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:24 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/info",
+      "member": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/info\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:24 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.047",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:24 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/info\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:24 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.043",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:24 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:24 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/webhooks",
+      "member": {
+        "status": 200,
+        "len": 31,
+        "snippet": "{\"status\": \"ok\", \"results\": []}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:25 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.147",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:25 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:25 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:25 GMT; Max-Age=31104000; Path=/, sessionid=tcc7fvnm491f8nh11zx9h6os8dyaukhk; Domain=.mixpanel.com; expires=Sat, 13 Jun 2026 16:32:23 GMT; HttpOnly; Max-Age=1209297; Path=/; SameSite=Lax; Secure",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 200,
+        "len": 31,
+        "snippet": "{\"status\": \"ok\", \"results\": []}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:26 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.162",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:26 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/, sessionid=t4z64hlfhpc4d6woexba01slexi070dy; Domain=.mixpanel.com; expires=Sat, 06 Jun 2026 14:43:59 GMT; HttpOnly; Max-Age=597993; Path=/; SameSite=Lax; Secure",
+          "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+          "X-Content-Type-Options": "nosniff",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Permissions-Policy": "autoplay=*, fullscreen=*, web-share=*",
+          "Content-Security-Policy": "default-src 'self' https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://ekr.zendesk.com wss://mixpanelsupport.zendesk.com https://framerusercontent.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://thesignalprod.wpenginepowered.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://cdn.rollbar.com https://js.stripe.com https://*.zdassets.com https://*.zopim.com https://assets.zendesk.com https://widget.usepylon.com https://www.google.com https://www.gstatic.com https://widget.kapa.ai https://www.youtube.com/embed/ https://connect.facebook.net https://apis.google.com https://accounts.google.com https://cdp.customer.io https://assets.customer.io https://customerioforms.com https://code.gist.build https://*.sendbird.com 'unsafe-eval' https://*.6sc.co https://static.addtoany.com https://*.adroll.com https://cdn-assets-prod.s3.amazonaws.com https://optimizely.s3.amazonaws.com https://*.bing.com https://cdn.bizible.com https://*.clarity.ms https://cdnjs.cloudflare.com d2wy8f7a9ursnm.cloudfront.net dnf20ypvrc856.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://*.google.com https://*.google-analytics.com https://*.googleadservices.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.gstatic.cn https://*.gstatic.com https://*.g2crowd.com https://app.leandata.com https://cdn.leandata.com https://cdn1.leandata.com https://snap.licdn.com https://*.marketo.com https://*.marketo.net https://mixpanel.com https://*.mixpanel.com https://*.optimizely.com https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://www.redditstatic.com/ads/ https://browser.sentry-cdn.com https://js.sentry-cdn.com https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://*.ads-twitter.com https://*.typeform.com https://use.typekit.net https://mxpnlcms.wpengine.com https://s.yimg.jp https://*.youtube.com https://*.youtube-nocookie.com https://*.zoominfo.com https://d3e54v103j8qbb.cloudfront.net https://53f7ny.csb.app https://*.53f7ny.csp.app https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; connect-src 'self' blob: data: wss://api.liveblocks.io https://api.liveblocks.io https://cdn.jsdelivr.net https://*.mixpanel.com https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.sentry.io https://api.honeycomb.io https://api.rollbar.com https://api.sprig.com https://*.zdassets.com https://mixpanelsupport.zendesk.com https://*.zopim.com wss://*.zopim.com https://*.usepylon.com wss://*.pusher.com https://www.google.com https://kapa-widget-proxy-la7dkmplpq-uc.a.run.app https://proxy.kapa.ai https://storage.googleapis.com https://*.facebook.com https://cdp.customer.io https://track.customer.io https://customerioforms.com https://*.api.gist.build https://*.cloud.gist.build https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.6sc.co https://*.adnxs.com https://cdn-assets-prod.s3.amazonaws.com https://*.bing.com https://*.bugsnag.com https://*.clarity.ms https://*.doubleclick.net https://framer.com https://*.framer.com https://app.framerstatic.com https://framerusercontent.com https://google.com https://*.google.com https://*.google-analytics.com https://*.googlesyndication.com https://tracking-api.g2.com https://*.g2crowd.com https://app.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.mktoresp.com https://*.optimizely.com https://cdn.linkedin.oribi.io https://*.pinimg.com https://ct.pinterest.com https://*.qualified.com wss://*.qualified.com https://*.recaptcha.net https://*.reddit.com https://www.redditstatic.com/ads/ https://unpkg.com/@rive-app/canvas@1.2.4/rive.wasm https://unpkg.com/@rive-app/webgl2@2.27.5/rive.wasm https://public.rive.app https://*.singular.net https://*.smartnews-ads.com https://*.trustarc.com https://mxpnlcms.wpengine.com https://thesignalprod.wpenginepowered.com https://*.zoominfo.com; img-src 'self' blob: data: https://api.liveblocks.io https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.zdassets.com https://*.zopim.com https://v2assets.zopim.io https://v2uploads.zopim.io https://*.usepylon.com https://d3vl36l12sfx26.cloudfront.net https://avatars.slack-edge.com https://storage.googleapis.com https://*.facebook.com https://*.gravatar.com https://*.wp.com https://track.customer.io https://*.sendbird.com https://*.amazonaws.com ws://*.sendbird.com https://*.3lift.com https://*.33across.com https://*.6sc.co https://*.adnxs.com https://*.adroll.com https://*.bidswitch.net https://*.bing.com https://cdn.bizible.com https://cdn.bizibly.com https://*.bugsnag.com https://ct.capterra.com https://*.casalemedia.com https://*.clarity.ms https://res.cloudinary.com https://*.crwdcntrl.net https://*.doubleclick.net https://*.exelator.com https://framerusercontent.com https://*.google-analytics.com https://*.googlesyndication.com https://www.googletagmanager.com https://*.googleusercontent.com https://*.imrworldwide.com https://cdn.leandata.com https://cdn1.leandata.com https://*.linkedin.com https://mixpanel.com https://*.mixpanel.com https://*.openx.net https://*.optimizely.com https://sync.outbrain.com https://*.pubmatic.com https://*.qualified.com https://*.reddit.com https://idsync.rlcdn.com https://pixel.rubiconproject.com https://*.smartnews-ads.com https://pixel.sitescout.com/ https://sync.taboola.com https://*.trustarc.com https://*.truste.com https://*.turn.com/ https://t.co/ https://analytics.twitter.com https://beacon.walmart.com https://*.wpengine.com https://mxpnlcms.wpengine.com https://mxpnlcms.wpenginepowered.com https://thesignalprod.wpenginepowered.com https://*.analytics.yahoo.com https://*.ytimg.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/ https://*.google.com https://*.google.ad https://*.google.ae https://*.google.com.af https://*.google.com.ag https://*.google.al https://*.google.am https://*.google.co.ao https://*.google.com.ar https://*.google.as https://*.google.at https://*.google.com.au https://*.google.az https://*.google.ba https://*.google.com.bd https://*.google.be https://*.google.bf https://*.google.bg https://*.google.com.bh https://*.google.bi https://*.google.bj https://*.google.com.bn https://*.google.com.bo https://*.google.com.br https://*.google.bs https://*.google.bt https://*.google.co.bw https://*.google.by https://*.google.com.bz https://*.google.ca https://*.google.cd https://*.google.cf https://*.google.cg https://*.google.ch https://*.google.ci https://*.google.co.ck https://*.google.cl https://*.google.cm https://*.google.cn https://*.google.com.co https://*.google.co.cr https://*.google.com.cu https://*.google.cv https://*.google.com.cy https://*.google.cz https://*.google.de https://*.google.dj https://*.google.dk https://*.google.dm https://*.google.com.do https://*.google.dz https://*.google.com.ec https://*.google.ee https://*.google.com.eg https://*.google.es https://*.google.com.et https://*.google.fi https://*.google.com.fj https://*.google.fm https://*.google.fr https://*.google.ga https://*.google.ge https://*.google.gg https://*.google.com.gh https://*.google.com.gi https://*.google.gl https://*.google.gm https://*.google.gr https://*.google.com.gt https://*.google.gy https://*.google.com.hk https://*.google.hn https://*.google.hr https://*.google.ht https://*.google.hu https://*.google.co.id https://*.google.ie https://*.google.co.il https://*.google.im https://*.google.co.in https://*.google.iq https://*.google.is https://*.google.it https://*.google.je https://*.google.com.jm https://*.google.jo https://*.google.co.jp https://*.google.co.ke https://*.google.com.kh https://*.google.ki https://*.google.kg https://*.google.co.kr https://*.google.com.kw https://*.google.kz https://*.google.la https://*.google.com.lb https://*.google.li https://*.google.lk https://*.google.co.ls https://*.google.lt https://*.google.lu https://*.google.lv https://*.google.com.ly https://*.google.co.ma https://*.google.md https://*.google.me https://*.google.mg https://*.google.mk https://*.google.ml https://*.google.com.mm https://*.google.mn https://*.google.com.mt https://*.google.mu https://*.google.mv https://*.google.mw https://*.google.com.mx https://*.google.com.my https://*.google.co.mz https://*.google.com.na https://*.google.com.ng https://*.google.com.ni https://*.google.ne https://*.google.nl https://*.google.no https://*.google.com.np https://*.google.nr https://*.google.nu https://*.google.co.nz https://*.google.com.om https://*.google.com.pa https://*.google.com.pe https://*.google.com.pg https://*.google.com.ph https://*.google.com.pk https://*.google.pl https://*.google.pn https://*.google.com.pr https://*.google.ps https://*.google.pt https://*.google.com.py https://*.google.com.qa https://*.google.ro https://*.google.ru https://*.google.rw https://*.google.com.sa https://*.google.com.sb https://*.google.sc https://*.google.se https://*.google.com.sg https://*.google.sh https://*.google.si https://*.google.sk https://*.google.com.sl https://*.google.sn https://*.google.so https://*.google.sm https://*.google.sr https://*.google.st https://*.google.com.sv https://*.google.td https://*.google.tg https://*.google.co.th https://*.google.com.tj https://*.google.tl https://*.google.tm https://*.google.tn https://*.google.to https://*.google.com.tr https://*.google.tt https://*.google.com.tw https://*.google.co.tz https://*.google.com.ua https://*.google.co.ug https://*.google.co.uk https://*.google.com.uy https://*.google.co.uz https://*.google.com.vc https://*.google.co.ve https://*.google.co.vi https://*.google.com.vn https://*.google.vu https://*.google.ws https://*.google.rs https://*.google.co.za https://*.google.co.zm https://*.google.co.zw https://*.google.cat; style-src 'self' 'unsafe-inline' https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://code.gist.build https://*.google.com https://fonts.googleapis.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://hello.myfonts.net https://*.qualified.com https://cdn.jsdelivr.net/npm/swiper@12/ https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; font-src 'self' data: https://cdn.mxpnl.com https://cdn-dev.mxpnl.com https://*.usepylon.com https://framerusercontent.com https://*.gstatic.com https://cdn.leandata.com https://cdn1.leandata.com https://mixpanel.com https://*.mixpanel.com https://*.qualified.com https://*.trustarc.com https://cdn.prod.website-files.com/69d882f034f244f0e1ec2d16/; frame-src 'self' https://cdn.mxpnl.com/static/ https://js.stripe.com https://www.google.com https://www.loom.com/embed/ https://player.vimeo.com/video/ https://www.youtube.com/embed/ https://*.facebook.com https://accounts.google.com https://code.gist.build https://renderer.gist.build https://static.addtoany.com https://*.bing.com dta8euw1l8gvs.cloudfront.net https://*.doubleclick.net https://framer.com https://*.framer.com https://*.google.com https://www.googletagmanager.com https://mixpanel.my.leandata.com https://*.marketo.com https://mixpanel.com https://*.mixpanel.com https://capture.navattic.com/ https://*.cdn.optimizely.com https://*.cdn-pci.optimizely.com https://ct.pinterest.com https://*.qualified.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://recaptcha.net https://*.recaptcha.net https://rive.app https://my.spline.design/ https://*.trustarc.com https://*.typeform.com https://*.youtube-nocookie.com; worker-src 'self' blob:;",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": "[PRIVESC-MATCH]"
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/settings",
+      "member": {
+        "status": 404,
+        "len": 77,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/settings\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:26 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.109",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:26 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 77,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/settings\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:26 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.047",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:26 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:26 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025923/keys",
+      "member": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/keys\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:27 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.099",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:27 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:27 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:27 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/keys\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:29 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.090",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:29 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:29 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:29 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962",
+      "member": {
+        "status": 404,
+        "len": 68,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:29 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.110",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:29 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:29 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:29 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 68,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:30 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.054",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:30 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:30 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:30 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962/secret",
+      "member": {
+        "status": 404,
+        "len": 75,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/secret\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:31 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.053",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:31 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:31 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:31 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 75,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/secret\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:32 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.119",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:32 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:32 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:32 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962/api-key",
+      "member": {
+        "status": 404,
+        "len": 76,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/api-key\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:32 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.041",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:32 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:32 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:32 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 76,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/api-key\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:33 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.050",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:33 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:33 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:33 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962/users",
+      "member": {
+        "status": 404,
+        "len": 74,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/users\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:34 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.041",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:34 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:34 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:34 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 74,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/users\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:35 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.121",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:35 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:35 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:35 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    },
+    {
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/projects/4025962/info",
+      "member": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/info\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:35 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.086",
+          "Set-Cookie": "mp_user=\"eyJpZCI6NjQ5MjY4OCwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZTEiLCJlbWFpbCI6ImJldHRlcmNhbGxtZStwcm9qZWN0dXNlcjFAd2VhcmVoYWNrZXJvbmUuY29tIn0=\"; expires=Sat, 13 Jun 2026 16:37:35 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=invite; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:35 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:35 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "admin": {
+        "status": 404,
+        "len": 73,
+        "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025962/info\"}",
+        "headers": {
+          "Server": "nginx",
+          "Date": "Sat, 30 May 2026 16:37:36 GMT",
+          "Content-Type": "application/json",
+          "Vary": "Accept-Encoding, Authorization, Cookie, origin",
+          "X-Server-Elapsed": "0.094",
+          "Set-Cookie": "mp_user=eyJpZCI6NjQ5MjYyMiwibmFtZSI6ImFjY291bnQgbWl4ICBsYXN0bmFtZSIsImVtYWlsIjoiYmV0dGVyY2FsbG1lK20xQHdlYXJlaGFja2Vyb25lLmNvbSJ9; expires=Sat, 13 Jun 2026 16:37:36 GMT; Max-Age=1209600; Path=/; SameSite=None; Secure, mp__origin=\"\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:36 GMT; Max-Age=31104000; Path=/, mp__origin_referrer=\"https://mixpanel.com/register/\"; Domain=.mixpanel.com; expires=Tue, 25 May 2027 16:37:36 GMT; Max-Age=31104000; Path=/",
+          "X-Frame-Options": "SAMEORIGIN",
+          "Content-Encoding": "gzip",
+          "Via": "1.1 google",
+          "Alt-Svc": "clear",
+          "Transfer-Encoding": "chunked"
+        }
+      },
+      "label": ""
+    }
+  ]
+}

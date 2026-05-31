@@ -1,0 +1,7 @@
+OPTIONS https://mixpanel.com/api/app/projects/4025923/public-dashboards -> 405 allow=GET access-ctrl-allow-methods=GET, PATCH, POST, PUT, DELETE, OPTIONS body=''
+OPTIONS https://mixpanel.com/api/app/projects/4025923/public-dashboards/11207838 -> 200 allow=GET, POST, DELETE, HEAD, OPTIONS access-ctrl-allow-methods=GET, PATCH, POST, PUT, DELETE, OPTIONS body=''
+PUT https://mixpanel.com/api/app/projects/4025923/public-dashboards body={"dashboard_id": 11207838} -> 405 allow=GET body=''
+PUT https://mixpanel.com/api/app/projects/4025923/public-dashboards/ body={"dashboard_id": 11207838} -> 405 allow=GET body=''
+POST(form) https://mixpanel.com/api/app/projects/4025923/public-dashboards -> 405 allow=GET body=''
+POST(form) https://mixpanel.com/api/app/projects/4025923/public-dashboards/ -> 405 allow=GET body=''
+POST(form) https://mixpanel.com/api/app/projects/4025923/public-dashboards/11207838 -> 500 allow=- body='{\n  "status": "error",\n  "message": "An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 34'

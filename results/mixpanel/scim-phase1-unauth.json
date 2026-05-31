@@ -1,0 +1,69 @@
+{
+  "phase": "unauth_discovery",
+  "base": "https://mixpanel.com/api/app/scim/v2",
+  "tests": [
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2",
+      "status": 404,
+      "len": 59,
+      "ct": "application/json",
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/v2\"}"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/Users",
+      "status": 401,
+      "len": 232,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You must provide an Authorization header. E.g. 'Authorization: Bearer your-access-token' or 'Authorization: Basic service-account-name:service-account-secret'\"}"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/Groups",
+      "status": 401,
+      "len": 232,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"You must provide an Authorization header. E.g. 'Authorization: Bearer your-access-token' or 'Authorization: Basic service-account-name:service-account-secret'\"}"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/ServiceProviderConfig",
+      "status": 200,
+      "len": 823,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig\"], \"documentationUri\": \"\", \"patch\": {\"supported\": false}, \"bulk\": {\"supported\": false, \"maxOperations\": 0, \"maxPayloadSize\": 0}, \"filter\": {\"supported\": true, \"maxResults\": 1}, \"changePassword\": {\"supported\": false}, \"sort\": {"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/ServiceProviderConfigs",
+      "status": 200,
+      "len": 823,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig\"], \"documentationUri\": \"\", \"patch\": {\"supported\": false}, \"bulk\": {\"supported\": false, \"maxOperations\": 0, \"maxPayloadSize\": 0}, \"filter\": {\"supported\": true, \"maxResults\": 1}, \"changePassword\": {\"supported\": false}, \"sort\": {"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/ResourceTypes",
+      "status": 200,
+      "len": 844,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:ListResponse\"], \"totalResults\": 2, \"itemsPerPage\": 2, \"startIndex\": 1, \"Resources\": [{\"schemas\": [\"urn:ietf:params:scim:schemas:core:2.0:ResourceType\"], \"id\": \"User\", \"name\": \"User\", \"endpoint\": \"/Users\", \"description\": \"https://tools.ietf.org/html"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/Schemas",
+      "status": 200,
+      "len": 8130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:ListResponse\"], \"totalResults\": 2, \"itemsPerPage\": 2, \"startIndex\": 1, \"Resources\": [{\"id\": \"urn:ietf:params:scim:schemas:core:2.0:User\", \"name\": \"User\", \"description\": \"User Schema\", \"attributes\": [{\"name\": \"id\", \"type\": \"string\", \"multiValued\": f"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/Bulk",
+      "status": 404,
+      "len": 64,
+      "ct": "application/json",
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/v2/Bulk\"}"
+    },
+    {
+      "url": "https://mixpanel.com/api/app/scim/v2/Me",
+      "status": 404,
+      "len": 62,
+      "ct": "application/json",
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/v2/Me\"}"
+    }
+  ]
+}

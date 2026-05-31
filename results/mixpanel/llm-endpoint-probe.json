@@ -1,0 +1,115 @@
+[
+  [
+    "POST",
+    "/api/2.0/spark",
+    {
+      "prompt": "hello",
+      "project_id": 4025923
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark",
+    {
+      "message": "hello",
+      "project_id": 4025923
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark",
+    {
+      "query": "hello",
+      "project_id": 4025923
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark",
+    {
+      "question": "hello",
+      "project_id": 4025923
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark/run",
+    {
+      "project_id": 4025923,
+      "prompt": "hi"
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark/run\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark/sessions",
+    {
+      "project_id": 4025923
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark/sessions\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/spark/chat",
+    {
+      "project_id": 4025923,
+      "message": "hi"
+    },
+    400,
+    "{\"request\": \"/api/2.0/spark/chat\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/agent_flows",
+    {
+      "project_id": 4025923,
+      "prompt": "hi"
+    },
+    400,
+    "{\"request\": \"/api/2.0/agent_flows\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/agent_flows/run",
+    {
+      "project_id": 4025923,
+      "prompt": "hi"
+    },
+    400,
+    "{\"request\": \"/api/2.0/agent_flows/run\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "POST",
+    "/api/2.0/agent_flows/invoke",
+    {
+      "project_id": 4025923,
+      "prompt": "hi"
+    },
+    400,
+    "{\"request\": \"/api/2.0/agent_flows/invoke\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "GET",
+    "/api/2.0/spark/list",
+    null,
+    400,
+    "{\"request\": \"/api/2.0/spark/list?project_id=4025923\", \"error\": \"Invalid API endpoint\"}"
+  ],
+  [
+    "GET",
+    "/api/2.0/agent_flows/list",
+    null,
+    400,
+    "{\"request\": \"/api/2.0/agent_flows/list?project_id=4025923\", \"error\": \"Invalid API endpoint\"}"
+  ]
+]

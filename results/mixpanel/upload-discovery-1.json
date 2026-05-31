@@ -1,0 +1,110 @@
+[
+  {
+    "path": "/api/app/projects/4025923/lookup-tables",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup-tables\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/lookup_tables",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lookup_tables\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/2.0/lookup_tables?project_id=4025923",
+    "status": 400,
+    "snippet": "{\"request\": \"/api/2.0/lookup_tables?project_id=4025923\", \"error\": \"Invalid API endpoint\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/me/avatar",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/me/avatar\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/users/me/avatar",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me/avatar\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/2.0/users/me",
+    "status": 400,
+    "snippet": "{\"request\": \"/api/2.0/users/me\", \"error\": \"project_id is a required parameter\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/events/import",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/events/import\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/import",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/import\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/2.0/import?project_id=4025923",
+    "status": 400,
+    "snippet": "{\"request\": \"/api/2.0/import?project_id=4025923\", \"error\": \"Invalid API endpoint\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/lexicon",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/projects/4025923/lexicon\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/custom_properties",
+    "status": 200,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"customPropertyId\": 5867414, \"project\": 4025923, \"user\": 1423597, \"userInfo\": {\"id\": 14235",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/cohorts",
+    "status": 200,
+    "snippet": "{\"status\": \"ok\", \"results\": []}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/users/import",
+    "status": 200,
+    "snippet": "{\"status\": \"ok\", \"results\": {\"active\": false, \"role\": null, \"teams\": [], \"recently_created\": [], \"user_bio\": null}}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/projects/4025923/boards",
+    "status": 200,
+    "snippet": "{\"status\": \"ok\", \"results\": [{\"id\": 11207838, \"title\": \"\\ud83c\\udf31 Starter Board\"}]}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/me",
+    "status": 200,
+    "snippet": "{\"status\": \"ok\", \"results\": {\"date_joined_iso\": \"2026-05-19T13:06:10\", \"is_staff\": false, \"organizations\": {\"3100781\": {",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/users/me",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/users/me\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/organizations/3100781/logo",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/logo\"}",
+    "ctype": "application/json"
+  },
+  {
+    "path": "/api/app/organizations/3100781/avatar",
+    "status": 404,
+    "snippet": "{\"status\": \"error\", \"error\": \"Not found: /api/app/organizations/3100781/avatar\"}",
+    "ctype": "application/json"
+  }
+]
